@@ -47,11 +47,13 @@ IGNORE = [
 ]
 
 
-def extract_module(page):
-    words = page.extract_words()
+def extract_module(page: pdfplumber.page.Page) -> str:
+    words = page.extract_words(extra_attrs=["size"])
     name = ""
     for word in words:
-        if word["size"] == MODULE_TXT_SIZE and word["text"] not in IGNORE:
+        text = word["text"].strip(".,;:!?").lower()
+        word_size = round(word["size"], 2)
+        if word_size == MODULE_TXT_SIZE and text not in IGNORE:
             name += word["text"] + " "
 
     return name.strip()
