@@ -19,37 +19,42 @@ HEADER_TXT_SIZE = 12.96
 TXT_SIZE = 12.00
 
 IGNORE = [
-    "PY2",
-    "FOUNDATIONS",
-    "OF",
-    "PHARMACY",
-    "DRUG",
-    "LIST",
-    "2026W",
-    "Updated",
-    "August",
-    "24,",
-    "2026",
     "d/c",
-    "means",
-    "Discontinued",
-    "Dormant",
-    "means",
+    "updated",
+    "2026",
     "not",
-    "currently",
-    "marketed",
     "in",
-    "Canada",
-    "but",
-    "still",
+    "drug",
+    "24",
     "authorized",
-    "for",
+    "list",
+    "marketed",
+    "discontinued",
+    "canada",
+    "foundations",
+    "dormant",
+    "pharmacy",
+    "2026w",
     "sale",
+    "py2",
+    "but",
+    "for",
+    "means",
+    "currently",
+    "still",
+    "of",
+    "august",
 ]
 
 
 def extract_module(page):
-    return None  # Placeholder for metadata extraction logic
+    words = page.extract_words()
+    name = ""
+    for word in words:
+        if word["size"] == MODULE_TXT_SIZE and word["text"] not in IGNORE:
+            name += word["text"] + " "
+
+    return name.strip()
 
 
 def extract_tables(page, prev_table_category, module_name):
