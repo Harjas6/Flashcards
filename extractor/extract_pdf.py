@@ -137,9 +137,3 @@ def make_dataframe(pdf_path):
             return pd.concat(tables, ignore_index=True), bad_tables
 
     return pd.DataFrame(columns=FINAL_COL), bad_tables
-
-
-if __name__ == "__main__":
-    pdf_path = "./FDL_PY2.pdf"
-    df, bad_tables = make_dataframe(pdf_path)
-    print(bad_tables)
