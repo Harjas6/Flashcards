@@ -1,0 +1,163 @@
+[
+    {
+        "page": 4,
+        "table_index": 2,
+        "expected_columns": 4,
+        "actual_row_lengths": [
+            1,
+            1
+        ],
+        "category": "Combination inhalers: Inhaled Corticosteroid + Muscarinic antagonist + Beta agonist",
+        "module": "RESPIRATORY MODULE",
+        "table": [
+            [
+                "budesonide-glycopyrronium-"
+            ],
+            [
+                "formoterol fumarate"
+            ]
+        ]
+    },
+    {
+        "page": 10,
+        "table_index": 2,
+        "expected_columns": 4,
+        "actual_row_lengths": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+        ],
+        "category": "Anticoagulants",
+        "module": "CARDIOVASCULAR MODULE",
+        "table": [
+            [
+                "Generic Name",
+                null,
+                null,
+                "Brand Name",
+                "Therapeutic Class",
+                null,
+                null,
+                "Dosage Forms and Strengths"
+            ],
+            [
+                "sacubitril/valsartan",
+                null,
+                null,
+                "Entresto",
+                "Neprilysin Inhibitor/ARB",
+                null,
+                null,
+                "Tabs: 24 mg/26 mg, 49 mg/51 mg,\n97 mg/103 mg"
+            ],
+            [
+                "ivabradine",
+                null,
+                null,
+                "Lancora",
+                "",
+                "If current (funny",
+                null,
+                "Tabs: 5 mg, 7.5 mg"
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null,
+                "channel) Inhibitor",
+                null,
+                null
+            ],
+            [
+                "dapagliflozin",
+                null,
+                null,
+                "Forxiga",
+                "Sodium-glucose\ncotransporter 2 (SGLT2)\nInhibitor",
+                null,
+                null,
+                "Tabs: 10 mg"
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null,
+                "Inhibitor",
+                null,
+                null
+            ],
+            [
+                "",
+                "empagliflozin",
+                "",
+                "Jardiance",
+                "",
+                "SGLT2 Inhibitor",
+                "",
+                "Tabs: 10 mg, 25 mg"
+            ],
+            [
+                "digoxin",
+                "digoxin",
+                null,
+                "Lanoxin (d/c)\nToloxin (d/c)",
+                "Cardiac Glycoside",
+                "Cardiac Glycoside",
+                null,
+                "Tabs: 0.0625 mg, 0.125 mg\nOral Solution: 0.05 mg/mL"
+            ]
+        ]
+    },
+    {
+        "page": 21,
+        "table_index": 4,
+        "expected_columns": 4,
+        "actual_row_lengths": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "category": "Thyroid hormones",
+        "module": "NEUROLOGY MODULE",
+        "table": [
+            [
+                "Generic",
+                "Brand",
+                "Therapeutic Class",
+                null,
+                "Dosage Forms and Strengths"
+            ],
+            [
+                "memantine",
+                "Ebixa",
+                "",
+                "NMDA Receptor",
+                "Tabs: 5 mg, 10 mg"
+            ],
+            [
+                null,
+                null,
+                null,
+                "Antagonist",
+                null
+            ],
+            [
+                "amantadine",
+                "Symmetrel (d/c)",
+                "Antiparkinsonian Agent\n/ Antiviral",
+                null,
+                "Caps: 100 mg\nSyrup: 10 mg/mL"
+            ]
+        ]
+    }
+]
