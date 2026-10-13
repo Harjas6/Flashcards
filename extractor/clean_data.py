@@ -37,12 +37,56 @@ def fix_PY2_tables():
     # First Bad Table is actaully already in the csv. file mustve double read it
     # PDF seems to have a weird lines on it and color change on cell whihc may have caused it
 
-    # Second Table also already in csv. Mustve double read it weirdly?
+    # Second Table IS NOT in csv. Some drugs are but they are a part of other categories
+    # so still need to be included under this one
 
     # 3rd table is missing from the csv. Manually building it
     # Has right information but it is not formatted correctly
     # Examine the json and compare with the PDF to see how it should be formatted
+
     data = [
+        # Second Table Contents
+        [
+            "sacubitril/valsartan",
+            "Entresto",
+            "Neprilysin Inhibitor/ARB",
+            "Tabs: 24 mg/26 mg, 49 mg/51 mg,\n97 mg/103 mg",
+            "Miscellaneous heart failure medications",
+            "CARDIOVASCULAR MODULE",
+        ],
+        [
+            "ivabradine",
+            "Lancora",
+            "If current (funny channel) Inhibitor",
+            "Tabs: 5 mg, 7.5 mg",
+            "Miscellaneous heart failure medications",
+            "CARDIOVASCULAR MODULE",
+        ],
+        [
+            "dapagliflozin",
+            "Forxiga",
+            "Sodium-glucose cotransporter 2 (SGLT2) Inhibitor",
+            "Tabs: 10 mg",
+            "Miscellaneous heart failure medications",
+            "CARDIOVASCULAR MODULE",
+        ],
+        [
+            "empagliflozin",
+            "Jardiance",
+            "SGLT2 Inhibitor",
+            "Tabs: 10 mg, 25 mg",
+            "Miscellaneous heart failure medications",
+            "CARDIOVASCULAR MODULE",
+        ],
+        [
+            "digoxin",
+            "Lanoxin (d/c)\nToloxin (d/c)",
+            "Cardiac Glycoside",
+            "Tabs: 0.0625 mg, 0.125 mg\nOral Solution: 0.05 mg/mL",
+            "Miscellaneous heart failure medications",
+            "CARDIOVASCULAR MODULE",
+        ],
+        # Third Table Contents
         [
             "memantine",
             "Ebixa",
