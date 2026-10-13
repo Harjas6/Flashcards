@@ -74,6 +74,15 @@ def extract_headers(page):
     return headers
 
 
+def normalize_columns(columns):
+    aliases = {
+        "generic": "generic name",
+        "brand": "brand name",
+    }
+
+    return [aliases.get(col, col) for col in columns]
+
+
 def extract_tables(
     page: pdfplumber.page.Page, prev_table_category: str, module_name: str
 ):
@@ -101,6 +110,8 @@ def extract_tables(
             continue
 
         first_row = [cell.strip().lower() if cell else "" for cell in table[0]]
+
+        first_row = normalize_columns(first_row)
         if first_row != low_col:
             df = pd.DataFrame(table, columns=TABLE_COL)
         else:
