@@ -19,6 +19,8 @@ def load_data(path):
 
     else:
         df, bad_tables = extract_pdf.make_dataframe(path)
+        manual_table = fix_PY2_tables()
+        df = pd.concat([df, manual_table], ignore_index=True)
 
         df.to_csv(drugs_file, index=False)
 
@@ -65,6 +67,4 @@ def fix_PY2_tables():
 
 if __name__ == "__main__":
     df, bad_tables = load_data("FDL_PY2.pdf")
-    manual_table = fix_PY2_tables()
-    df = pd.concat([df, manual_table], ignore_index=True)
     df.to_csv(drugs_file, index=False)
