@@ -197,42 +197,36 @@ apixaban,Eliquis,Anticoagulant,"Tabs: 2.5 mg, 5 mg",Anticoagulants,CARDIOVASCULA
 rivaroxaban,Xarelto,Anticoagulant,"Tabs: 2.5 mg, 10 mg, 15 mg, 20 mg",Anticoagulants,CARDIOVASCULAR MODULE
 warfarin,Coumadin (d/c),Anticoagulant,"Tabs: 1 mg, 2 mg, 2.5 mg, 3 mg, 4 mg, 5 mg,
 6 mg, 7.5 mg, 10 mg",Anticoagulants,CARDIOVASCULAR MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Anticoagulants,NEPHROLOGY MODULE
-epoetin alfa,Eprex,Erythropoiesis stimulating agent,,Anticoagulants,NEPHROLOGY MODULE
-darbepoetin alfa,Aranesp,Erythropoiesis stimulating agent,,Anticoagulants,NEPHROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Anticoagulants,NEPHROLOGY MODULE
-iron sucrose,Venofer,Iron supplement,,Anticoagulants,NEPHROLOGY MODULE
+epoetin alfa,Eprex,Erythropoiesis stimulating agent,,Erythropoiesis stimulating agents,NEPHROLOGY MODULE
+darbepoetin alfa,Aranesp,Erythropoiesis stimulating agent,,Erythropoiesis stimulating agents,NEPHROLOGY MODULE
+iron sucrose,Venofer,Iron supplement,,Iron supplements,NEPHROLOGY MODULE
 "sodium ferric gluconate
-complex",Ferrlecit,Iron supplement,,Anticoagulants,NEPHROLOGY MODULE
-ferric derisomaltose,Monoferric,Iron supplement,,Anticoagulants,NEPHROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Anticoagulants,NEPHROLOGY MODULE
+complex",Ferrlecit,Iron supplement,,Iron supplements,NEPHROLOGY MODULE
+ferric derisomaltose,Monoferric,Iron supplement,,Iron supplements,NEPHROLOGY MODULE
 sevelamer carbonate,Renvela,"Non-absorbable polymer-based
-phosphate binder",Tabs: 800 mg,Anticoagulants,NEPHROLOGY MODULE
+phosphate binder",Tabs: 800 mg,Phosphate binders,NEPHROLOGY MODULE
 lanthanum,Fosrenol (d/c),"Trivalent cation-based
 phosphate binder","Chew Tabs: 250 mg, 500 mg, 750 mg,
-1000 mg",Anticoagulants,NEPHROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Anticoagulants,NEPHROLOGY MODULE
+1000 mg",Phosphate binders,NEPHROLOGY MODULE
 alfacalcidol,One-Alpha,Vitamin D analogue,"Drops: 2 mcg/mL (1 drop = 0.1 mcg)
 IV Solution: 2 mcg/mL
-Soft Gelcaps: 0.25 mcg, 1 mcg",Anticoagulants,NEPHROLOGY MODULE
-calcitriol,Rocaltrol,Vitamin D analogue,"Capsules: 0.25 mcg, 0.5 mcg",Anticoagulants,NEPHROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Anticoagulants,NEPHROLOGY MODULE
+Soft Gelcaps: 0.25 mcg, 1 mcg",Vitamin D analogues,NEPHROLOGY MODULE
+calcitriol,Rocaltrol,Vitamin D analogue,"Capsules: 0.25 mcg, 0.5 mcg",Vitamin D analogues,NEPHROLOGY MODULE
 sodium polystyrene sulfonate,"Kayexalate
-Solystat",Cation-exchange resin,,Anticoagulants,NEPHROLOGY MODULE
-calcium polystyrene sulfonate,Resonium Calcium,Cation-exchange resin,,Anticoagulants,NEPHROLOGY MODULE
-sodium zirconium cyclosilicate,Lokelma,Cation-exchange resin,,Anticoagulants,NEPHROLOGY MODULE
-patiromer sorbitex calcium,Veltassa,Cation-exchange resin,,Anticoagulants,NEPHROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Anticoagulants,NEPHROLOGY MODULE
+Solystat",Cation-exchange resin,,Cation-exchange resins,NEPHROLOGY MODULE
+calcium polystyrene sulfonate,Resonium Calcium,Cation-exchange resin,,Cation-exchange resins,NEPHROLOGY MODULE
+sodium zirconium cyclosilicate,Lokelma,Cation-exchange resin,,Cation-exchange resins,NEPHROLOGY MODULE
+patiromer sorbitex calcium,Veltassa,Cation-exchange resin,,Cation-exchange resins,NEPHROLOGY MODULE
 sodium bicarbonate,,Alkalinizer,"Powder
 Tabs: 325 mg, 500 mg
-IV Solution: 42 mg/mL, 75 mg/mL, 84 mg/mL",Anticoagulants,NEPHROLOGY MODULE
+IV Solution: 42 mg/mL, 75 mg/mL, 84 mg/mL",Miscellaneous,NEPHROLOGY MODULE
 semaglutide,Ozempic,GLP-1 analogue,"SC inj: 0.68 mg/mL, 1.34 mg/mL, 2.68 mg / mL
-(prefilled pen: 1.5 mL, 3.0 mL)",Anticoagulants,NEPHROLOGY MODULE
-empagliflozin,Jardiance,SGLT2 inhibitor,Tabs: 10 mg,Anticoagulants,NEPHROLOGY MODULE
-dapagliflozin,Forxiga,SGLT2 inhibitor,Tabs: 10 mg,Anticoagulants,NEPHROLOGY MODULE
-canagliflozin,Invokana,SGLT2 inhibitor,Tabs: 100 mg,Anticoagulants,NEPHROLOGY MODULE
-finerenone,Kerendia,Aldosterone Antagonist,"Tabs: 10 mg, 20 mg",Anticoagulants,NEPHROLOGY MODULE
-cinacalcet,Sensipar (d/c),Calcimimetic agent,"Tabs: 30 mg, 60 mg, 90 mg",Anticoagulants,NEPHROLOGY MODULE
+(prefilled pen: 1.5 mL, 3.0 mL)",Miscellaneous,NEPHROLOGY MODULE
+empagliflozin,Jardiance,SGLT2 inhibitor,Tabs: 10 mg,Miscellaneous,NEPHROLOGY MODULE
+dapagliflozin,Forxiga,SGLT2 inhibitor,Tabs: 10 mg,Miscellaneous,NEPHROLOGY MODULE
+canagliflozin,Invokana,SGLT2 inhibitor,Tabs: 100 mg,Miscellaneous,NEPHROLOGY MODULE
+finerenone,Kerendia,Aldosterone Antagonist,"Tabs: 10 mg, 20 mg",Miscellaneous,NEPHROLOGY MODULE
+cinacalcet,Sensipar (d/c),Calcimimetic agent,"Tabs: 30 mg, 60 mg, 90 mg",Miscellaneous,NEPHROLOGY MODULE
 levothyroxine,"Eltroxin
 Synthroid",Thyroid Hormone,"Eltroxin Tabs: 50 mcg, 100 mcg, 150 mcg, 200 mcg,
 300 mcg
@@ -240,23 +234,19 @@ Synthroid Tabs: 25 mcg, 50 mcg, 75 mcg, 88 mcg,
 100 mcg, 112 mcg, 125 mcg, 137 mcg, 150 mcg,
 175 mcg, 200 mcg, 300 mcg",Thyroid hormones,ENDOCRINOLOGY MODULE
 liothyronine,Cytomel,,"Tabs: 5 mcg, 25 mcg",Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,ENDOCRINOLOGY MODULE
-propylthiouracil,Halycil,Antithyroid Agent,Tabs: 50 mg,Thyroid hormones,ENDOCRINOLOGY MODULE
-methimazole,Tapazole,,"Tabs: 5 mg, 10 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,ENDOCRINOLOGY MODULE
-alendronate,Fosamax,Bisphosphonate,"Tabs: 5 mg, 10 mg, 70 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-alendronate/cholecalciferol,Fosavance,,"Tabs: 70 mg/2800 unit, 70 mg/5600 unit",Thyroid hormones,ENDOCRINOLOGY MODULE
+propylthiouracil,Halycil,Antithyroid Agent,Tabs: 50 mg,Antithyroid agents,ENDOCRINOLOGY MODULE
+methimazole,Tapazole,,"Tabs: 5 mg, 10 mg",Antithyroid agents,ENDOCRINOLOGY MODULE
+alendronate,Fosamax,Bisphosphonate,"Tabs: 5 mg, 10 mg, 70 mg",Bisphosphonates,ENDOCRINOLOGY MODULE
+alendronate/cholecalciferol,Fosavance,,"Tabs: 70 mg/2800 unit, 70 mg/5600 unit",Bisphosphonates,ENDOCRINOLOGY MODULE
 risedronate,Actonel,,"Tabs: 5 mg, 30 mg, 35 mg, 150 mg
-Delayed-Release Tabs: 35 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,ENDOCRINOLOGY MODULE
+Delayed-Release Tabs: 35 mg",Bisphosphonates,ENDOCRINOLOGY MODULE
 denosumab,"Jubbonti
 Prolia
 Wyost
 Xgeva",RANK-L inhibitor,"Jubbonti solution for injection: 60 mg/mL
 Prolia solution for injection: 60 mg/mL
 Wyost solution for injection: 120 mg/1.7 mL
-Xgeva solution for injection: 120 mg/1.7 mL",Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,ENDOCRINOLOGY MODULE
+Xgeva solution for injection: 120 mg/1.7 mL",RANK-L inhibitors,ENDOCRINOLOGY MODULE
 insulin aspart,"Fiasp
 Fiasp FlexTouch
 NovoRapid
@@ -264,44 +254,44 @@ NovoRapid FlexTouch
 Trurapi
 Trurapi SoloSTAR
 Kirsty",Rapid-acting insulin,"SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)
-SC inj: 100 U/mL (prefilled pen: 3 mL)",Thyroid hormones,ENDOCRINOLOGY MODULE
+SC inj: 100 U/mL (prefilled pen: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
 insulin glulisine,"Apidra
 Apidra SoloSTAR",,"SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)
-SC inj: 100 U/mL (prefilled pen: 3 mL)",Thyroid hormones,ENDOCRINOLOGY MODULE
+SC inj: 100 U/mL (prefilled pen: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
 insulin lispro,"Admelog
 Admelog SoloSTAR
 Humalog
 Humalog KwikPen
 Humalog 200 U/mL KwikPen",,"SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)
 SC inj: 100 U/mL (prefilled pen: 3 mL)
-SC inj: 200 U/mL (prefilled pen: 3 mL)",Thyroid hormones,ENDOCRINOLOGY MODULE
+SC inj: 200 U/mL (prefilled pen: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
 insulin regular,"Humulin-R
 Humulin R KwikPen
 Novolin ge Toronto",Short-acting insulin,"SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)
 SC inj (Humulin only): 100 U/mL (prefilled pen: 3
-mL)",Thyroid hormones,ENDOCRINOLOGY MODULE
+mL)",Insulin,ENDOCRINOLOGY MODULE
 insulin NPH,"Humulin-N
 Humulin-N KwikPen
 Novolin ge NPH","Intermediate-acting
 insulin","SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)
 SC inj (Humulin only): 100 U/mL (prefilled pen: 3
-mL)",Thyroid hormones,ENDOCRINOLOGY MODULE
+mL)",Insulin,ENDOCRINOLOGY MODULE
 regular/NPH,"Humulin 30/70
-Novolin ge 30/70",Mixed insulin,"SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)",Thyroid hormones,ENDOCRINOLOGY MODULE
+Novolin ge 30/70",Mixed insulin,"SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
 lispro/lispro protamine,"Humalog Mix25
 Humalog Mix25 KwikPen
 Humalog Mix50
 Humalog Mix50 KwikPen",,"SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)
-SC inj: 100 U/mL (prefilled pen: 3 mL)",Thyroid hormones,ENDOCRINOLOGY MODULE
+SC inj: 100 U/mL (prefilled pen: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
 "aspart/aspart
-protamine",NovoMix 30,,SC inj: 100 U/mL (cartridges: 3 mL),Thyroid hormones,ENDOCRINOLOGY MODULE
+protamine",NovoMix 30,,SC inj: 100 U/mL (cartridges: 3 mL),Insulin,ENDOCRINOLOGY MODULE
 insulin degludec,"Tresiba
 Tresiba FlexTouch",Long-acting insulin,"SC inj: 100 U/mL (cartridges: 3 mL)
 SC inj: 100 U/mL (prefilled pen: 3 mL)
-SC inj: 200 U/mL (prefilled pen: 3 mL)",Thyroid hormones,ENDOCRINOLOGY MODULE
+SC inj: 200 U/mL (prefilled pen: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
 insulin detemir,"Levemir
 Levemir FlexTouch",Long-acting insulin,"SC inj: 100 U/mL (cartridges: 3 mL)
-SC inj: 100 U/mL (prefilled pen: 3 mL)",Thyroid hormones,ENDOCRINOLOGY MODULE
+SC inj: 100 U/mL (prefilled pen: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
 insulin glargine,"Basaglar
 Basaglar KwikPen
 Lantus
@@ -314,28 +304,23 @@ Lantus SC inj: 100 U/mL (vials: 10 mL, cartridges: 3
 mL)
 Lantus SC inj: 100 U/mL (prefilled pen: 3 mL)
 Toujeo SC inj: 300 U/mL (prefilled pen: 1.5 mL, 3
-mL)",Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,ENDOCRINOLOGY MODULE
+mL)",Insulin,ENDOCRINOLOGY MODULE
 metformin,"Glumetza
 Glucophage",Biguanide,"ER Tabs: 500 mg, 1000 mg
 Immediate-Release (IR) Tabs: 500 mg, 850 mg,
-1000 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,ENDOCRINOLOGY MODULE
+1000 mg",Biguanide,ENDOCRINOLOGY MODULE
 gliclazide,"Diamicron (d/c)
 Diamicron MR",Sulfonylurea,"Tabs: 80 mg
-Modified Release (MR) Tabs: 30 mg, 60 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-glyburide,Diabeta (d/c),,"Tabs: 2.5 mg, 5 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,ENDOCRINOLOGY MODULE
-pioglitazone,Actos (d/c),Thiazolidinedione,"Tabs: 15 mg, 30 mg, 45 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-rosiglitazone,Avandia (d/c),,"Tabs: 2 mg, 4 mg, 8 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,ENDOCRINOLOGY MODULE
-saxagliptin,Onglyza,DPP-4 inhibitor,"Tabs: 2.5 mg, 5 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-sitagliptin,Januvia,,"Tabs: 25 mg, 50 mg, 100 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,ENDOCRINOLOGY MODULE
+Modified Release (MR) Tabs: 30 mg, 60 mg",Sulfonylureas,ENDOCRINOLOGY MODULE
+glyburide,Diabeta (d/c),,"Tabs: 2.5 mg, 5 mg",Sulfonylureas,ENDOCRINOLOGY MODULE
+pioglitazone,Actos (d/c),Thiazolidinedione,"Tabs: 15 mg, 30 mg, 45 mg",Thiazolidinediones,ENDOCRINOLOGY MODULE
+rosiglitazone,Avandia (d/c),,"Tabs: 2 mg, 4 mg, 8 mg",Thiazolidinediones,ENDOCRINOLOGY MODULE
+saxagliptin,Onglyza,DPP-4 inhibitor,"Tabs: 2.5 mg, 5 mg",DPP-4 inhibitors,ENDOCRINOLOGY MODULE
+sitagliptin,Januvia,,"Tabs: 25 mg, 50 mg, 100 mg",DPP-4 inhibitors,ENDOCRINOLOGY MODULE
 dulaglutide,Trulicity,GLP-1 analogue,"SC inj: 0.75 mg/0.5 mL, 1.5 mg/0.5 mL
-(prefilled pen: 0.5 mL)",Thyroid hormones,ENDOCRINOLOGY MODULE
+(prefilled pen: 0.5 mL)",GLP-1 analogues,ENDOCRINOLOGY MODULE
 liraglutide,"Victoza
-Saxenda",,SC inj: 6 mg/mL (prefilled pen: 3 mL),Thyroid hormones,ENDOCRINOLOGY MODULE
+Saxenda",,SC inj: 6 mg/mL (prefilled pen: 3 mL),GLP-1 analogues,ENDOCRINOLOGY MODULE
 semaglutide,"Ozempic
 Rybelsus
 Wegovy",,"Ozempic SC inj: 0.68 mg/mL, 1.34 mg/mL
@@ -344,116 +329,101 @@ Rybelsus Tabs: 1.5 mg, 3 mg, 4 mg, 7 mg, 9
 mg, 14 mg
 Wegovy SC inj: 1 mg/1.5 mL, 2 mg/1.5 mL, 4
 mg/3 mL, 6.8 mg/3 mL, 9.6 mg/3 mL
-(prefilled pen: 1.5 mL, 3.0 mL)",Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,ENDOCRINOLOGY MODULE
-empagliflozin,Jardiance,SGLT2 inhibitor,"Tabs: 10 mg, 25 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-canagliflozin,Invokana,,"Tabs: 100 mg, 300 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-dapagliflozin,Forxiga,,"Tabs: 5 mg, 10 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,ENDOCRINOLOGY MODULE
+(prefilled pen: 1.5 mL, 3.0 mL)",GLP-1 analogues,ENDOCRINOLOGY MODULE
+empagliflozin,Jardiance,SGLT2 inhibitor,"Tabs: 10 mg, 25 mg",SGLT2 inhibitors,ENDOCRINOLOGY MODULE
+canagliflozin,Invokana,,"Tabs: 100 mg, 300 mg",SGLT2 inhibitors,ENDOCRINOLOGY MODULE
+dapagliflozin,Forxiga,,"Tabs: 5 mg, 10 mg",SGLT2 inhibitors,ENDOCRINOLOGY MODULE
 dapagliflozin/metformin,Xigduo,"Combination oral blood
-glucose lowering drug","Tabs: 5 mg/850 mg, 5 mg/1000 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
+glucose lowering drug","Tabs: 5 mg/850 mg, 5 mg/1000 mg",Combination oral blood glucose lowering drugs,ENDOCRINOLOGY MODULE
 empagliflozin/metformin,Synjardy,,"Tabs: 5 mg/500 mg, 5 mg/850 mg, 5 mg/1000
 mg, 12.5 mg/500 mg, 12.5 mg/850 mg, 12.5
-mg/1000 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
+mg/1000 mg",Combination oral blood glucose lowering drugs,ENDOCRINOLOGY MODULE
 linagliptin/metformin,Jentadueto,,"Tabs: 2.5 mg/500 mg, 2.5 mg/850 mg, 2.5
-mg/1000 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-saxagliptin/metformin,Komboglyze,,Tabs: 2.5 mg/850 mg,Thyroid hormones,ENDOCRINOLOGY MODULE
+mg/1000 mg",Combination oral blood glucose lowering drugs,ENDOCRINOLOGY MODULE
+saxagliptin/metformin,Komboglyze,,Tabs: 2.5 mg/850 mg,Combination oral blood glucose lowering drugs,ENDOCRINOLOGY MODULE
 sitagliptin/metformin,Janumet,,"Tabs: 50 mg/500 mg, 50 mg/850 mg, 50
 mg/1000 mg
 MR Tabs (IR sitagliptin, XR metformin): 50
-mg/500 mg, 50 mg/1000 mg, 100 mg/1000 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,ENDOCRINOLOGY MODULE
-cabergoline,Dostinex,ACTH Release Inhibitor,,Thyroid hormones,ENDOCRINOLOGY MODULE
+mg/500 mg, 50 mg/1000 mg, 100 mg/1000 mg",Combination oral blood glucose lowering drugs,ENDOCRINOLOGY MODULE
+cabergoline,Dostinex,ACTH Release Inhibitor,,ACTH Release Inhibitors,ENDOCRINOLOGY MODULE
 pasireotide,"Signifor
-Signifor LAR",ACTH Release Inhibitor,,Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,ENDOCRINOLOGY MODULE
-mitotane,Lysodren,Adrenolytic,Tabs: 500 mg,Thyroid hormones,ENDOCRINOLOGY MODULE
-acarbose,Glucobay (d/c),Alpha-glucosidase inhibitor,"Tabs: 50 mg, 100 mg",Thyroid hormones,ENDOCRINOLOGY MODULE
-fludrocortisone,Florinef,Corticosteroid,Tabs: 0.1 mg,Thyroid hormones,ENDOCRINOLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,NEUROLOGY MODULE
+Signifor LAR",ACTH Release Inhibitor,,ACTH Release Inhibitors,ENDOCRINOLOGY MODULE
+mitotane,Lysodren,Adrenolytic,Tabs: 500 mg,Miscellaneous,ENDOCRINOLOGY MODULE
+acarbose,Glucobay (d/c),Alpha-glucosidase inhibitor,"Tabs: 50 mg, 100 mg",Miscellaneous,ENDOCRINOLOGY MODULE
+fludrocortisone,Florinef,Corticosteroid,Tabs: 0.1 mg,Miscellaneous,ENDOCRINOLOGY MODULE
 carbamazepine,Tegretol,Anticonvulsant,"Tabs: 200 mg
 Controlled Release (CR) Tabs: 200 mg, 400 mg
 Chew Tabs: 100 mg, 200 mg
-Suspension: 100 mg/5 mL",Thyroid hormones,NEUROLOGY MODULE
-divalproex sodium,Epival,Anticonvulsant,"Enteric Coated (EC) Tabs: 125 mg, 250 mg, 500 mg",Thyroid hormones,NEUROLOGY MODULE
+Suspension: 100 mg/5 mL",Anticonvulsants,NEUROLOGY MODULE
+divalproex sodium,Epival,Anticonvulsant,"Enteric Coated (EC) Tabs: 125 mg, 250 mg, 500 mg",Anticonvulsants,NEUROLOGY MODULE
 gabapentin,Neurontin,Anticonvulsant,"Caps: 100 mg, 300 mg, 400 mg
-Tabs: 600 mg, 800 mg",Thyroid hormones,NEUROLOGY MODULE
+Tabs: 600 mg, 800 mg",Anticonvulsants,NEUROLOGY MODULE
 phenytoin (acid form),Dilantin,Anticonvulsant,"Infatabs: 50 mg
-Suspension: 125 mg/5 mL",Thyroid hormones,NEUROLOGY MODULE
-phenytoin sodium,Dilantin,Anticonvulsant,"ER Caps: 30 mg, 100 mg",Thyroid hormones,NEUROLOGY MODULE
+Suspension: 125 mg/5 mL",Anticonvulsants,NEUROLOGY MODULE
+phenytoin sodium,Dilantin,Anticonvulsant,"ER Caps: 30 mg, 100 mg",Anticonvulsants,NEUROLOGY MODULE
 topiramate,Topamax,Anticonvulsant,"Tabs: 25 mg, 50 mg, 100 mg, 200 mg
-Sprinkle Caps: 15 mg, 25 mg",Thyroid hormones,NEUROLOGY MODULE
+Sprinkle Caps: 15 mg, 25 mg",Anticonvulsants,NEUROLOGY MODULE
 valproic acid,Depakene,Anticonvulsant,"Oral Solution: 250 mg/5 mL
 Caps: 250 mg
-EC Caps: 500 mg",Thyroid hormones,NEUROLOGY MODULE
+EC Caps: 500 mg",Anticonvulsants,NEUROLOGY MODULE
 lamotrigine,Lamictal,Anticonvulsant,"Tabs: 25 mg, 100 mg, 150 mg
-Dispersible/Chew Tabs: 2 mg, 5 mg",Thyroid hormones,NEUROLOGY MODULE
+Dispersible/Chew Tabs: 2 mg, 5 mg",Anticonvulsants,NEUROLOGY MODULE
 levetiracetam,Keppra,Anticonvulsant,"Tabs: 250 mg, 500 mg, 750 mg, 1000 mg
-Oral Solution: 100 mg/mL",Thyroid hormones,NEUROLOGY MODULE
+Oral Solution: 100 mg/mL",Anticonvulsants,NEUROLOGY MODULE
 lacosamide,Vimpat,Anticonvulsant,"Tabs: 50 mg, 100 mg, 150 mg, 200 mg
-Oral Solution: 10 mg/mL",Thyroid hormones,NEUROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,NEUROLOGY MODULE
-clonazepam,Rivotril,Benzodiazepine,"Tabs: 0.25 mg, 0.5 mg, 1 mg, 2 mg",Thyroid hormones,NEUROLOGY MODULE
-temazepam,Restoril,Benzodiazepine,"Caps: 15 mg, 30 mg",Thyroid hormones,NEUROLOGY MODULE
-triazolam,,Benzodiazepine,Tab: 0.25 mg,Thyroid hormones,NEUROLOGY MODULE
+Oral Solution: 10 mg/mL",Anticonvulsants,NEUROLOGY MODULE
+clonazepam,Rivotril,Benzodiazepine,"Tabs: 0.25 mg, 0.5 mg, 1 mg, 2 mg",Benzodiazepines,NEUROLOGY MODULE
+temazepam,Restoril,Benzodiazepine,"Caps: 15 mg, 30 mg",Benzodiazepines,NEUROLOGY MODULE
+triazolam,,Benzodiazepine,Tab: 0.25 mg,Benzodiazepines,NEUROLOGY MODULE
 lorazepam,Ativan,Benzodiazepine,"Tabs: 0.5 mg, 1 mg, 2 mg
 SL Tabs: 0.5 mg, 1 mg, 2 mg
-Injectable: 4 mg/mL",Thyroid hormones,NEUROLOGY MODULE
-oxazepam,,Benzodiazepine,"Tabs: 10 mg, 15 mg, 30 mg",Thyroid hormones,NEUROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,NEUROLOGY MODULE
-amitriptyline,Elavil (Dormant),TCA,"Tabs: 10 mg, 25 mg, 50 mg, 75 mg, 100 mg",Thyroid hormones,NEUROLOGY MODULE
+Injectable: 4 mg/mL",Benzodiazepines,NEUROLOGY MODULE
+oxazepam,,Benzodiazepine,"Tabs: 10 mg, 15 mg, 30 mg",Benzodiazepines,NEUROLOGY MODULE
+amitriptyline,Elavil (Dormant),TCA,"Tabs: 10 mg, 25 mg, 50 mg, 75 mg, 100 mg",Tricyclic Antidepressants (TCAs),NEUROLOGY MODULE
 doxepin,"Silenor
 Sinequan",TCA,"Tabs: 3 mg, 6 mg
-Caps: 10 mg, 25 mg, 50 mg, 75 mg, 100 mg",Thyroid hormones,NEUROLOGY MODULE
-nortriptyline,Aventyl,TCA,"Caps: 10 mg, 25 mg",Thyroid hormones,NEUROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,NEUROLOGY MODULE
-zopiclone,Imovane,Hypnotic,"Tabs: 3.75 mg, 5 mg, 7.5 mg",Thyroid hormones,NEUROLOGY MODULE
+Caps: 10 mg, 25 mg, 50 mg, 75 mg, 100 mg",Tricyclic Antidepressants (TCAs),NEUROLOGY MODULE
+nortriptyline,Aventyl,TCA,"Caps: 10 mg, 25 mg",Tricyclic Antidepressants (TCAs),NEUROLOGY MODULE
+zopiclone,Imovane,Hypnotic,"Tabs: 3.75 mg, 5 mg, 7.5 mg",Non-benzodiazepine sedative hypnotics (Z-drugs),NEUROLOGY MODULE
 zolpidem,Sublinox,Hypnotic,"Orally disintegrating tablet (ODT): 5 mg, 10
-mg",Thyroid hormones,NEUROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,NEUROLOGY MODULE
-trazodone,,Antidepressant,"Tabs: 50 mg, 75 mg, 100 mg, 150 mg",Thyroid hormones,NEUROLOGY MODULE
+mg",Non-benzodiazepine sedative hypnotics (Z-drugs),NEUROLOGY MODULE
+trazodone,,Antidepressant,"Tabs: 50 mg, 75 mg, 100 mg, 150 mg",Miscellaneous,NEUROLOGY MODULE
 mirtazapine,Remeron,Antidepressant,"Tabs: 15 mg, 30 mg, 45 mg
-ODT: 15 mg, 30 mg, 45 mg",Thyroid hormones,NEUROLOGY MODULE
+ODT: 15 mg, 30 mg, 45 mg",Miscellaneous,NEUROLOGY MODULE
 lemborexant,Dayvigo,"Dual orexin receptor
-antagonist (DORA)","Tabs: 5 mg, 10 mg",Thyroid hormones,NEUROLOGY MODULE
-duloxetine,,Antidepressant,"Delayed-Release Caps: 30 mg, 60 mg",Thyroid hormones,NEUROLOGY MODULE
+antagonist (DORA)","Tabs: 5 mg, 10 mg",Miscellaneous,NEUROLOGY MODULE
+duloxetine,,Antidepressant,"Delayed-Release Caps: 30 mg, 60 mg",Miscellaneous,NEUROLOGY MODULE
 pregabalin,Lyrica,Analgesic,"Caps: 25 mg, 50 mg, 75 mg, 150 mg, 225 mg,
-300 mg",Thyroid hormones,NEUROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,NEUROLOGY MODULE
+300 mg",Miscellaneous,NEUROLOGY MODULE
 sumatriptan hemisulfate,Imitrex,"5-HT1 Receptor Agonist
-(triptan)","Nasal Spray: 5 mg/spray, 20 mg/spray",Thyroid hormones,NEUROLOGY MODULE
+(triptan)","Nasal Spray: 5 mg/spray, 20 mg/spray",Migraine Therapy,NEUROLOGY MODULE
 sumatriptan succinate,Imitrex,"5-HT1 Receptor Agonist
 (triptan)","Tabs: 25 mg, 50 mg, 100 mg
-Injectable: 6 mg/0.5 mL",Thyroid hormones,NEUROLOGY MODULE
+Injectable: 6 mg/0.5 mL",Migraine Therapy,NEUROLOGY MODULE
 rizatriptan,Maxalt,"5-HT1 Receptor Agonist
 (triptan)","Tabs: 5 mg, 10 mg
 ODT: 5 mg, 10 mg
 Rapidly disintegrating (RPD) Wafer: 5 mg, 10
-mg",Thyroid hormones,NEUROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,NEUROLOGY MODULE
-erenumab,Aimovig,CGRP inhibitor,"Auto-Injector: 70 mg/mL, 140 mg/mL",Thyroid hormones,NEUROLOGY MODULE
-rimegepant,Nurtec,CGRP inhibitor,ODT: 75 mg,Thyroid hormones,NEUROLOGY MODULE
-ubrogepant,Ubrelvy,CGRP inhibitor,"Tabs: 50 mg, 100 mg",Thyroid hormones,NEUROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,NEUROLOGY MODULE
+mg",Migraine Therapy,NEUROLOGY MODULE
+erenumab,Aimovig,CGRP inhibitor,"Auto-Injector: 70 mg/mL, 140 mg/mL",Calcitonin gene-related peptide (CGRP) Inhibitors,NEUROLOGY MODULE
+rimegepant,Nurtec,CGRP inhibitor,ODT: 75 mg,Calcitonin gene-related peptide (CGRP) Inhibitors,NEUROLOGY MODULE
+ubrogepant,Ubrelvy,CGRP inhibitor,"Tabs: 50 mg, 100 mg",Calcitonin gene-related peptide (CGRP) Inhibitors,NEUROLOGY MODULE
 levodopa/carbidopa,Sinemet (d/c),Anti-Parkinson agent,"Tabs: 100 mg/10 mg, 100 mg/25 mg, 250
 mg/25 mg
-CR Tabs: 100 mg/25 mg, 200 mg/50 mg",Thyroid hormones,NEUROLOGY MODULE
+CR Tabs: 100 mg/25 mg, 200 mg/50 mg",Dopamine precursors,NEUROLOGY MODULE
 levodopa/benserazide,Prolopa,Anti-Parkinson agent,"Caps: 50 mg/12.5 mg, 100 mg/25 mg, 200
-mg/50 mg",Thyroid hormones,NEUROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,NEUROLOGY MODULE
+mg/50 mg",Dopamine precursors,NEUROLOGY MODULE
 pramipexole,Mirapex,Dopamine agonist,"Tabs: 0.125 mg, 0.25 mg, 0.5 mg, 1 mg, 1.5
-mg",Thyroid hormones,NEUROLOGY MODULE
-ropinirole,ReQuip (d/c),Dopamine agonist,"Tabs: 0.25 mg, 1 mg, 2 mg, 5 mg",Thyroid hormones,NEUROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,NEUROLOGY MODULE
-donepezil hydrochloride,Aricept,Cholinesterase Inhibitor,"Tabs: 5 mg, 10 mg",Thyroid hormones,NEUROLOGY MODULE
-galantamine,Reminyl ER (d/c),Cholinesterase Inhibitor,"ER Caps: 8 mg, 16 mg, 24 mg",Thyroid hormones,NEUROLOGY MODULE
+mg",Dopamine agonists,NEUROLOGY MODULE
+ropinirole,ReQuip (d/c),Dopamine agonist,"Tabs: 0.25 mg, 1 mg, 2 mg, 5 mg",Dopamine agonists,NEUROLOGY MODULE
+donepezil hydrochloride,Aricept,Cholinesterase Inhibitor,"Tabs: 5 mg, 10 mg",Cholinesterase Inhibitors,NEUROLOGY MODULE
+galantamine,Reminyl ER (d/c),Cholinesterase Inhibitor,"ER Caps: 8 mg, 16 mg, 24 mg",Cholinesterase Inhibitors,NEUROLOGY MODULE
 rivastigmine,"Exelon
 Exelon Patch",Cholinesterase Inhibitor,"Caps: 1.5 mg, 3 mg, 4.5 mg, 6 mg
 Oral Solution: 2 mg/mL
 Patches: 4.6 mg/24 hr, 9.5 mg/24 hr, 13.3
-mg/24 hr",Thyroid hormones,NEUROLOGY MODULE
-Generic,Brand,Therapeutic Class,Dosage Forms and Strengths,Thyroid hormones,NEUROLOGY MODULE
+mg/24 hr",Cholinesterase Inhibitors,NEUROLOGY MODULE
 entacapone,Comtan (Dormant),"Catechol-O-methyltransferase
-(COMT) Inhibitor",Tabs: 200 mg,Thyroid hormones,NEUROLOGY MODULE
+(COMT) Inhibitor",Tabs: 200 mg,Miscellaneous Anti-Parkinson Agents,NEUROLOGY MODULE
 rasagiline,Azilect,"Monoamine oxidase B (MAO-B)
-Inhibitor","Tabs: 0.5 mg, 1 mg",Thyroid hormones,NEUROLOGY MODULE
+Inhibitor","Tabs: 0.5 mg, 1 mg",Miscellaneous Anti-Parkinson Agents,NEUROLOGY MODULE
