@@ -19,8 +19,7 @@ def load_data(path):
 
     else:
         df, bad_tables = extract_pdf.make_dataframe(path)
-        manual_table = fix_PY2_tables()
-        df = pd.concat([df, manual_table], ignore_index=True)
+        df = fix_PY2_tables(df)
 
         df.to_csv(drugs_file, index=False)
 
@@ -30,7 +29,7 @@ def load_data(path):
     return df, bad_tables
 
 
-def fix_PY2_tables():
+def fix_PY2_tables(df):
     # Inspected JSON file to find which tables are missing
     # manually building those three tables and returning them as a list of DataFrames
 
@@ -104,8 +103,15 @@ def fix_PY2_tables():
             "NEUROLOGY MODULE",
         ],
     ]
-    df = pd.DataFrame(data=data, columns=FINAL_COL)
+    manual_table = pd.DataFrame(data=data, columns=FINAL_COL)
+    df = pd.concat([df, manual_table], ignore_index=True)
+    df = clean_data(df)
 
+    return df
+
+
+def clean_data(df):
+    df[FINAL_COL[2]] = df[FINAL_COL[2]].ffill()
     return df
 
 
