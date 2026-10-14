@@ -30,8 +30,11 @@ def load_data(path):
 
 
 def fix_PY2_tables(df):
+    """
+    Adds missing tables to the dataframe and fills missing rows
+    """
+
     # Inspected JSON file to find which tables are missing
-    # manually building those three tables and returning them as a list of DataFrames
 
     # First Bad Table is actaully already in the csv. file mustve double read it
     # PDF seems to have a weird lines on it and color change on cell whihc may have caused it
@@ -111,6 +114,8 @@ def fix_PY2_tables(df):
 
 
 def clean_data(df):
+    # There are missing values in the "Therapeutic Class" column due to PDF
+    # having merged mega cells. Filling with forward fill to fixes this
     df[FINAL_COL[2]] = df[FINAL_COL[2]].ffill()
     return df
 

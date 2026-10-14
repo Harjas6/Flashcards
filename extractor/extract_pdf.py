@@ -20,7 +20,7 @@ MODULE_TXT_SIZE = 15.96
 HEADER_TXT_SIZE = 12.96
 TXT_SIZE = 12.00
 
-
+# Words to ignore when extracting module names from the PDF. Chosen by examining the PDF and identifying common words that are not part of module names.
 IGNORE = [
     "d/c",
     "updated",
@@ -51,6 +51,9 @@ IGNORE = [
 
 
 def extract_module(page: pdfplumber.page.Page) -> str:
+    """
+    Extracts the module name from the PDF page by comparing font size and ignoring certain words.
+    """
     words = page.extract_words(extra_attrs=["size"])
     name = ""
     for word in words:
@@ -63,6 +66,10 @@ def extract_module(page: pdfplumber.page.Page) -> str:
 
 
 def extract_headers(page):
+    """
+    Extracts headers from the PDF page by comparing
+    font size and grouping words by their height position
+    """
     words = page.extract_words(extra_attrs=["size"])
     headers = defaultdict(list)
     for word in words:
@@ -75,6 +82,10 @@ def extract_headers(page):
 
 
 def normalize_columns(columns):
+    """
+    Certain PDF column names are abbreviated or inconsistent.
+    This function normalizes them to match the expected column names.
+    """
     aliases = {
         "generic": "generic name",
         "brand": "brand name",
@@ -86,6 +97,10 @@ def normalize_columns(columns):
 def extract_tables(
     page: pdfplumber.page.Page, prev_table_category: str, module_name: str
 ):
+    """
+    Extracts tables from a PDF page, matches headers to tables, and logs tables
+    with invalid column structures for later review.
+    """
     headers = extract_headers(page)
     index = 0
     current_header = prev_table_category
@@ -93,20 +108,13 @@ def extract_tables(
 
     tables = page.extract_tables()
     bad_tables = []
-    successful_df = []
+    successful_dfs = []
     for table_index, table in enumerate(tables, start=1):
         # any parsing issues logged for later review
         if any(len(row) != len(TABLE_COL) for row in table):
-            bad_table = {
-                "page": page.page_number,
-                "table_index": table_index,
-                "expected_columns": len(TABLE_COL),
-                "actual_row_lengths": [len(row) for row in table],
-                "category": current_header,
-                "module": module_name,
-                "table": table,
-            }
-            bad_tables.append(bad_table)
+            bad_tables.append(
+                log_bad_table(page, module_name, current_header, table_index, table)
+            )
             continue
 
         first_row = [cell.strip().lower() if cell else "" for cell in table[0]]
@@ -120,12 +128,30 @@ def extract_tables(
             df = pd.DataFrame(table[1:], columns=TABLE_COL)
         df["Category"] = current_header
         df["Module Name"] = module_name
-        successful_df.append(df)
+        successful_dfs.append(df)
 
-    return successful_df, current_header, bad_tables
+    return successful_dfs, current_header, bad_tables
+
+
+def log_bad_table(page, module_name, current_header, table_index, table):
+    bad_table = {
+        "page": page.page_number,
+        "table_index": table_index,
+        "expected_columns": len(TABLE_COL),
+        "actual_row_lengths": [len(row) for row in table],
+        "category": current_header,
+        "module": module_name,
+        "table": table,
+    }
+
+    return bad_table
 
 
 def make_dataframe(pdf_path):
+    """
+    Processes each PDF page, tracks the current module and category, and combines
+    successfully extracted tables while collecting tables with parsing errors.
+    """
     prev_table_category = ""
     module_name = ""
     tables = []
