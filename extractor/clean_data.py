@@ -13,8 +13,11 @@ output_path = (
 output_path.parent.mkdir(parents=True, exist_ok=True)
 
 # csv for easy viewing in excel or sheets to verify data
-drugs_file = Path("drugs.csv")
-bad_tables_file = Path("bad_tables.json")
+
+OUTPUT_DIR = Path(__file__).resolve().parent
+
+drugs_file = OUTPUT_DIR / "drugs.csv"
+bad_tables_file = OUTPUT_DIR / "bad_tables.json"
 
 
 def load_data(path):
@@ -131,4 +134,5 @@ def clean_data(df):
 
 
 if __name__ == "__main__":
-    df, bad_tables = load_data("FDL_PY2.pdf")
+    pdf_path = Path(__file__).resolve().parent / "FDL_PY2.pdf"
+    df, bad_tables = load_data(pdf_path)
