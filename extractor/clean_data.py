@@ -5,13 +5,22 @@ import extract_pdf
 import pandas as pd
 from extract_pdf import FINAL_COL
 
+# json file for frontend to use
+output_path = (
+    Path(__file__).resolve().parent.parent / "frontend" / "src" / "data" / "drugs.json"
+)
+# if directory doesn't exist make it
+output_path.parent.mkdir(parents=True, exist_ok=True)
+
+# csv for easy viewing in excel or sheets to verify data
 drugs_file = Path("drugs.csv")
 bad_tables_file = Path("bad_tables.json")
 
 
 def load_data(path):
 
-    if drugs_file.exists() and bad_tables_file.exists():
+    # leaving this in case i ever want to manipulate the data without rerunning the whole extraction process
+    if drugs_file.exists() and bad_tables_file.exists() and output_path.exists():
         df = pd.read_csv(drugs_file)
 
         with open(bad_tables_file, "r", encoding="utf-8") as f:
@@ -22,6 +31,7 @@ def load_data(path):
         df = fix_PY2_tables(df)
 
         df.to_csv(drugs_file, index=False)
+        df.to_json(output_path, orient="records", indent=2)
 
         with open(bad_tables_file, "w", encoding="utf-8") as f:
             json.dump(bad_tables, f, indent=4, ensure_ascii=False)
@@ -122,4 +132,3 @@ def clean_data(df):
 
 if __name__ == "__main__":
     df, bad_tables = load_data("FDL_PY2.pdf")
-    df.to_csv(drugs_file, index=False)
