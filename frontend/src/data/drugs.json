@@ -1,21 +1,24 @@
 [
   {
+    "id":"respiratory-module__ipratropium",
     "Generic Name":"ipratropium",
     "Brand Name":"Atrovent\nIpravent",
-    "Therapeutic Class":"Short-Acting Muscarinic\nAntagonist (SAMA)",
+    "Therapeutic Class":"SAMA",
     "Dosage Forms and Strengths":"HFA: 20 mcg\/inhalation (inh)\nNebules: 125 mcg\/mL (2 mL), 250 mcg\/mL\n(1 mL and 2 mL)\nInh solution: 250 mcg\/mL",
     "Category":"Inhaled muscarinic antagonists",
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__glycopyrronium",
     "Generic Name":"glycopyrronium",
     "Brand Name":"Seebri",
-    "Therapeutic Class":"Long-Acting Muscarinic\nAntagonist (LAMA)",
+    "Therapeutic Class":"LAMA",
     "Dosage Forms and Strengths":"Breezhaler Caps: 50 mcg",
     "Category":"Inhaled muscarinic antagonists",
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__tiotropium",
     "Generic Name":"tiotropium",
     "Brand Name":"Spiriva",
     "Therapeutic Class":"LAMA",
@@ -24,6 +27,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__aclidinium",
     "Generic Name":"aclidinium",
     "Brand Name":"Tudorza",
     "Therapeutic Class":"LAMA",
@@ -32,6 +36,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__umeclidinium",
     "Generic Name":"umeclidinium",
     "Brand Name":"Incruse",
     "Therapeutic Class":"LAMA",
@@ -40,14 +45,16 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__salbutamol",
     "Generic Name":"salbutamol",
     "Brand Name":"Ventolin\nAiromir (Dormant)",
-    "Therapeutic Class":"Short-Acting Beta\nAgonist (SABA)",
+    "Therapeutic Class":"SABA",
     "Dosage Forms and Strengths":"Diskus: 200 mcg\/inh\nHFA: 100 mcg\/inh\nIV Solution: 1 mg\/mL\nRespirator Solution: 5 mg\/mL\nNebules (2.5 mL): 0.5 mg\/mL, 1 mg\/mL, 2\nmg\/mL",
     "Category":"Inhaled beta-agonists",
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__terbutaline",
     "Generic Name":"terbutaline",
     "Brand Name":"Bricanyl",
     "Therapeutic Class":"SABA",
@@ -56,14 +63,16 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__salmeterol",
     "Generic Name":"salmeterol",
     "Brand Name":"Serevent",
-    "Therapeutic Class":"Long-Acting Beta Agonist\n(LABA)",
+    "Therapeutic Class":"LABA",
     "Dosage Forms and Strengths":"Diskus: 50 mcg\/inh",
     "Category":"Inhaled beta-agonists",
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__formoterol",
     "Generic Name":"formoterol",
     "Brand Name":"Oxeze",
     "Therapeutic Class":"LABA",
@@ -72,6 +81,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__dexamethasone",
     "Generic Name":"dexamethasone",
     "Brand Name":"Decadron (d\/c)",
     "Therapeutic Class":"Systemic Corticosteroid",
@@ -80,6 +90,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__hydrocortisone",
     "Generic Name":"hydrocortisone",
     "Brand Name":"Cortef\nSolu-Cortef",
     "Therapeutic Class":"Systemic Corticosteroid",
@@ -88,6 +99,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__methylprednisolone",
     "Generic Name":"methylprednisolone",
     "Brand Name":"Medrol\nSolu-Medrol\nDepo-Medrol",
     "Therapeutic Class":"Systemic Corticosteroid",
@@ -96,6 +108,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__prednisone",
     "Generic Name":"prednisone",
     "Brand Name":"Winpred",
     "Therapeutic Class":"Systemic Corticosteroid",
@@ -104,14 +117,16 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__beclomethasone-dipropionate",
     "Generic Name":"beclomethasone dipropionate",
     "Brand Name":"QVAR",
-    "Therapeutic Class":"Inhaled Corticosteroid\n(ICS)",
+    "Therapeutic Class":"ICS",
     "Dosage Forms and Strengths":"HFA: 50 mcg\/inh, 100 mcg\/inh",
     "Category":"Inhaled Corticosteroids (ICS)",
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__budesonide",
     "Generic Name":"budesonide",
     "Brand Name":"Pulmicort",
     "Therapeutic Class":"ICS",
@@ -120,6 +135,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__ciclesonide",
     "Generic Name":"ciclesonide",
     "Brand Name":"Alvesco",
     "Therapeutic Class":"ICS",
@@ -128,6 +144,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__fluticasone-propionate",
     "Generic Name":"fluticasone propionate",
     "Brand Name":"Flovent\nAermony (d\/c)",
     "Therapeutic Class":"ICS",
@@ -136,6 +153,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__mometasone-furoate",
     "Generic Name":"mometasone furoate",
     "Brand Name":"Asmanex",
     "Therapeutic Class":"ICS",
@@ -144,6 +162,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__ipratropium-salbutamol",
     "Generic Name":"ipratropium-salbutamol",
     "Brand Name":"Combivent",
     "Therapeutic Class":"SAMA-SABA",
@@ -152,6 +171,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__umeclidinium-vilanterol",
     "Generic Name":"umeclidinium-vilanterol",
     "Brand Name":"Anoro",
     "Therapeutic Class":"LAMA-LABA",
@@ -160,6 +180,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__aclidinium-formoterol",
     "Generic Name":"aclidinium-formoterol",
     "Brand Name":"Duaklir",
     "Therapeutic Class":"LAMA-LABA",
@@ -168,6 +189,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__tiotropium-olodaterol",
     "Generic Name":"tiotropium-olodaterol",
     "Brand Name":"Inspiolto",
     "Therapeutic Class":"LAMA-LABA",
@@ -176,6 +198,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__glycopyrronium-indacaterol",
     "Generic Name":"glycopyrronium-indacaterol",
     "Brand Name":"Ultibro",
     "Therapeutic Class":"LAMA-LABA",
@@ -184,6 +207,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__budesonide-formoterol",
     "Generic Name":"budesonide-formoterol",
     "Brand Name":"Symbicort",
     "Therapeutic Class":"ICS-LABA",
@@ -192,6 +216,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__fluticasone-propionate-salmeterol",
     "Generic Name":"fluticasone propionate-\nsalmeterol",
     "Brand Name":"Advair\nWixela",
     "Therapeutic Class":"ICS-LABA",
@@ -200,6 +225,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__fluticasone-furoate-vilanterol",
     "Generic Name":"fluticasone furoate-vilanterol",
     "Brand Name":"Breo",
     "Therapeutic Class":"ICS-LABA",
@@ -208,6 +234,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__mometasone-furoate-formoterol",
     "Generic Name":"mometasone furoate-\nformoterol",
     "Brand Name":"Zenhale",
     "Therapeutic Class":"ICS-LABA",
@@ -216,6 +243,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__fluticasone-furoate-umeclidinium-vilanterol",
     "Generic Name":"fluticasone furoate-\numeclidinium-vilanterol",
     "Brand Name":"Trelegy",
     "Therapeutic Class":"ICS-LAMA-LABA",
@@ -224,6 +252,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__budesonide-glycopyrronium-formoterol-fumarate",
     "Generic Name":"budesonide-glycopyrronium-\nformoterol fumarate",
     "Brand Name":"Breztri",
     "Therapeutic Class":"ICS-LAMA-LABA",
@@ -232,6 +261,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__nicotine-patchm",
     "Generic Name":"nicotine patchM",
     "Brand Name":"Nicoderm\nHabitrol",
     "Therapeutic Class":"NRT",
@@ -240,6 +270,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__nicotine-gumm",
     "Generic Name":"nicotine gumM",
     "Brand Name":"Nicorette\nThrive",
     "Therapeutic Class":"NRT",
@@ -248,6 +279,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__nicotine-oral-inhalerm",
     "Generic Name":"nicotine oral inhalerM",
     "Brand Name":"Nicorette Inhaler",
     "Therapeutic Class":"NRT",
@@ -256,6 +288,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__nicotine-lozengem",
     "Generic Name":"nicotine lozengeM",
     "Brand Name":"Nicorette\nThrive",
     "Therapeutic Class":"NRT",
@@ -264,6 +297,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__nicotine-spraym",
     "Generic Name":"nicotine sprayM",
     "Brand Name":"Nicorette QuickMist",
     "Therapeutic Class":"NRT",
@@ -272,6 +306,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__nicotine-pouchm",
     "Generic Name":"nicotine pouchM",
     "Brand Name":"Zonnic",
     "Therapeutic Class":"NRT",
@@ -280,6 +315,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__bupropionm",
     "Generic Name":"bupropionM",
     "Brand Name":"Zyban",
     "Therapeutic Class":"Smoking Cessation Aid",
@@ -288,6 +324,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__vareniclinem",
     "Generic Name":"vareniclineM",
     "Brand Name":"Champix (d\/c)",
     "Therapeutic Class":"Smoking Cessation Aid",
@@ -296,6 +333,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__montelukast",
     "Generic Name":"montelukast",
     "Brand Name":"Singulair",
     "Therapeutic Class":"Leukotriene Receptor\nAntagonist",
@@ -304,6 +342,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__roflumilast",
     "Generic Name":"roflumilast",
     "Brand Name":"Daxas",
     "Therapeutic Class":"Phosphodiesterase 4 (PDE4)\nInhibitor",
@@ -312,6 +351,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__omalizumab",
     "Generic Name":"omalizumab",
     "Brand Name":"Xolair\nOmlyclo",
     "Therapeutic Class":"Anti-IgE antibody",
@@ -320,6 +360,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__mepolizumab",
     "Generic Name":"mepolizumab",
     "Brand Name":"Nucala",
     "Therapeutic Class":"Interleukin-5 (IL-5) Inhibitor",
@@ -328,6 +369,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__reslizumab",
     "Generic Name":"reslizumab",
     "Brand Name":"Cinqair",
     "Therapeutic Class":"Interleukin-5 (IL-5) Inhibitor",
@@ -336,22 +378,25 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__elexacaftor-tezacaftor-ivacaftor",
     "Generic Name":"elexacaftor-tezacaftor-\nivacaftor",
     "Brand Name":"Trikafta",
     "Therapeutic Class":"Cystic fibrosis\ntransmembrane conductance\nregulator modulator (CFTRm)",
-    "Dosage Forms and Strengths":"",
+    "Dosage Forms and Strengths":null,
     "Category":"Miscellaneous Respiratory agents",
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__tocilizumab",
     "Generic Name":"tocilizumab",
     "Brand Name":"Actemra\nTyenne\nAvtozma",
     "Therapeutic Class":"Interleukin Inhibitor",
-    "Dosage Forms and Strengths":"",
+    "Dosage Forms and Strengths":null,
     "Category":"Miscellaneous Respiratory agents",
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__baricitinib",
     "Generic Name":"baricitinib",
     "Brand Name":"Olumiant",
     "Therapeutic Class":"Janus kinase (JAK) Inhibitor",
@@ -360,6 +405,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__nirmatrelvir-ritonavir",
     "Generic Name":"nirmatrelvir-ritonavir",
     "Brand Name":"Paxlovid",
     "Therapeutic Class":"Antiviral",
@@ -368,6 +414,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__remdesivir",
     "Generic Name":"remdesivir",
     "Brand Name":"Veklury",
     "Therapeutic Class":"Antiviral",
@@ -376,6 +423,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__dextromethorphan",
     "Generic Name":"dextromethorphan",
     "Brand Name":"Benylin Dry Cough\nRobitussin DM\nVarious others",
     "Therapeutic Class":"Antitussive",
@@ -384,6 +432,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"respiratory-module__guaifenesin",
     "Generic Name":"guaifenesin",
     "Brand Name":"Mucinex Chest Congestion\nRobitussin Mucous & Phlegm\nVarious others",
     "Therapeutic Class":"Expectorant",
@@ -392,6 +441,7 @@
     "Module Name":"RESPIRATORY MODULE"
   },
   {
+    "id":"cardiovascular-module__lisinopril",
     "Generic Name":"lisinopril",
     "Brand Name":"Zestril\nPrinivil (d\/c)",
     "Therapeutic Class":"ACEI",
@@ -400,6 +450,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__perindopril",
     "Generic Name":"perindopril",
     "Brand Name":"Coversyl",
     "Therapeutic Class":"ACEI",
@@ -408,6 +459,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__ramipril",
     "Generic Name":"ramipril",
     "Brand Name":"Altace",
     "Therapeutic Class":"ACEI",
@@ -416,6 +468,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__trandolapril",
     "Generic Name":"trandolapril",
     "Brand Name":"Mavik",
     "Therapeutic Class":"ACEI",
@@ -424,6 +477,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__candesartan",
     "Generic Name":"candesartan",
     "Brand Name":"Atacand",
     "Therapeutic Class":"ARB",
@@ -432,6 +486,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__losartan",
     "Generic Name":"losartan",
     "Brand Name":"Cozaar",
     "Therapeutic Class":"ARB",
@@ -440,6 +495,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__telmisartan",
     "Generic Name":"telmisartan",
     "Brand Name":"Micardis",
     "Therapeutic Class":"ARB",
@@ -448,6 +504,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__valsartan",
     "Generic Name":"valsartan",
     "Brand Name":"Diovan",
     "Therapeutic Class":"ARB",
@@ -456,14 +513,16 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__diltiazem",
     "Generic Name":"diltiazem",
     "Brand Name":"Tiazac\nTiazac XC\nCardizem (d\/c)",
-    "Therapeutic Class":"Non-dihydropyridine (DHP) CCB",
+    "Therapeutic Class":"Non-DHP CCB",
     "Dosage Forms and Strengths":"Tabs: 30 mg, 60 mg\nER\/CD Caps: 120 mg, 180 mg, 240 mg, 300\nmg, 360 mg\nER Tabs (XC): 120 mg, 180 mg, 240 mg, 300\nmg, 360 mg",
     "Category":"Calcium Channel Blockers (CCBs)",
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__verapamil",
     "Generic Name":"verapamil",
     "Brand Name":"Isoptin SR",
     "Therapeutic Class":"Non-DHP CCB",
@@ -472,6 +531,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__amlodipine",
     "Generic Name":"amlodipine",
     "Brand Name":"Norvasc",
     "Therapeutic Class":"DHP CCB",
@@ -480,6 +540,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__atenolol",
     "Generic Name":"atenolol",
     "Brand Name":"Tenormin",
     "Therapeutic Class":"Beta-blocker",
@@ -488,6 +549,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__bisoprolol",
     "Generic Name":"bisoprolol",
     "Brand Name":"Monocor (d\/c)",
     "Therapeutic Class":"Beta-blocker",
@@ -496,6 +558,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__carvedilol",
     "Generic Name":"carvedilol",
     "Brand Name":"Coreg (d\/c)",
     "Therapeutic Class":"Beta-blocker",
@@ -504,6 +567,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__metoprolol-tartrate",
     "Generic Name":"metoprolol tartrate",
     "Brand Name":"Lopresor (d\/c)",
     "Therapeutic Class":"Beta-blocker",
@@ -512,6 +576,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__labetalol",
     "Generic Name":"labetalol",
     "Brand Name":"Trandate",
     "Therapeutic Class":"Beta-blocker",
@@ -520,6 +585,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__propranolol",
     "Generic Name":"propranolol",
     "Brand Name":"Inderal (d\/c)",
     "Therapeutic Class":"Beta-blocker",
@@ -528,6 +594,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__chlorthalidone",
     "Generic Name":"chlorthalidone",
     "Brand Name":"Hygroton (d\/c)",
     "Therapeutic Class":"Thiazide-like diuretic",
@@ -536,6 +603,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__hydrochlorothiazide",
     "Generic Name":"hydrochlorothiazide",
     "Brand Name":"Hydrodiuril (d\/c)",
     "Therapeutic Class":"Thiazide diuretic",
@@ -544,6 +612,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__furosemide",
     "Generic Name":"furosemide",
     "Brand Name":"Lasix (d\/c)\nLasix Oral Solution",
     "Therapeutic Class":"Loop diuretic",
@@ -552,6 +621,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__eplerenone",
     "Generic Name":"eplerenone",
     "Brand Name":"Inspra",
     "Therapeutic Class":"MRA",
@@ -560,6 +630,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__finerenone",
     "Generic Name":"finerenone",
     "Brand Name":"Kerendia",
     "Therapeutic Class":"MRA",
@@ -568,6 +639,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__spironolactone",
     "Generic Name":"spironolactone",
     "Brand Name":"Aldactone (d\/c)",
     "Therapeutic Class":"MRA",
@@ -576,6 +648,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__hydralazine",
     "Generic Name":"hydralazine",
     "Brand Name":"Apresoline (d\/c)",
     "Therapeutic Class":"Vasodilator",
@@ -584,6 +657,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__perindopril-indapamide",
     "Generic Name":"perindopril-indapamide",
     "Brand Name":"Coversyl Plus",
     "Therapeutic Class":"ACEI-diuretic",
@@ -592,6 +666,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__ramipril-hydrochlorothiazide",
     "Generic Name":"ramipril-hydrochlorothiazide",
     "Brand Name":"Altace HCT",
     "Therapeutic Class":"ACEI-diuretic",
@@ -600,6 +675,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__candesartan-hydrochlorothiazide",
     "Generic Name":"candesartan-hydrochlorothiazide",
     "Brand Name":"Atacand Plus",
     "Therapeutic Class":"ARB-diuretic",
@@ -608,6 +684,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__telmisartan-hydrochlorothiazide",
     "Generic Name":"telmisartan-hydrochlorothiazide",
     "Brand Name":"Micardis Plus",
     "Therapeutic Class":"ARB-diuretic",
@@ -616,6 +693,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__atorvastatin",
     "Generic Name":"atorvastatin",
     "Brand Name":"Lipitor",
     "Therapeutic Class":"HMG-CoA Reductase\nInhibitor",
@@ -624,6 +702,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__rosuvastatin",
     "Generic Name":"rosuvastatin",
     "Brand Name":"Crestor",
     "Therapeutic Class":"HMG-CoA Reductase\nInhibitor",
@@ -632,6 +711,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__alirocumab",
     "Generic Name":"alirocumab",
     "Brand Name":"Praluent",
     "Therapeutic Class":"PCSK9 inhibitor",
@@ -640,6 +720,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__evolocumab",
     "Generic Name":"evolocumab",
     "Brand Name":"Repatha",
     "Therapeutic Class":"PCSK9 inhibitor",
@@ -648,6 +729,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__fenofibrate",
     "Generic Name":"fenofibrate",
     "Brand Name":"Lipidil EZ\nLipidil Supra",
     "Therapeutic Class":"Fibrate",
@@ -656,6 +738,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__icosapent-ethyl",
     "Generic Name":"icosapent ethyl",
     "Brand Name":"Vascepa",
     "Therapeutic Class":"Omega-3 Fatty Acid",
@@ -664,6 +747,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__ezetimibe",
     "Generic Name":"ezetimibe",
     "Brand Name":"Ezetrol",
     "Therapeutic Class":"Cholesterol Absorption\nInhibitor",
@@ -672,6 +756,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__bempedoic-acid",
     "Generic Name":"bempedoic acid",
     "Brand Name":"Nilemdo",
     "Therapeutic Class":"ATP citrate lyase\ninhibitor",
@@ -680,6 +765,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__clopidogrel",
     "Generic Name":"clopidogrel",
     "Brand Name":"Plavix",
     "Therapeutic Class":"Platelet Aggregation\nInhibitor",
@@ -688,6 +774,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__ticagrelor",
     "Generic Name":"ticagrelor",
     "Brand Name":"Brilinta",
     "Therapeutic Class":"Platelet Aggregation\nInhibitor",
@@ -696,6 +783,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__isosorbide-dinitrate",
     "Generic Name":"isosorbide dinitrate",
     "Brand Name":"ISDN",
     "Therapeutic Class":"Vasodilator",
@@ -704,6 +792,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__isosorbide-mononitrate",
     "Generic Name":"isosorbide mononitrate",
     "Brand Name":"IMDUR",
     "Therapeutic Class":"Vasodilator",
@@ -712,6 +801,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__nitroglycerin",
     "Generic Name":"nitroglycerin",
     "Brand Name":"Transderm-Nitro (d\/c)\nTrinipatch\nNitro-Dur\nNitrostat\nNitrolingual Pump spray",
     "Therapeutic Class":"Vasodilator",
@@ -720,14 +810,16 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__amiodarone",
     "Generic Name":"amiodarone",
-    "Brand Name":"",
+    "Brand Name":null,
     "Therapeutic Class":"Antiarrhythmic",
     "Dosage Forms and Strengths":"Tabs: 100 mg, 200 mg",
     "Category":"Antiarrhythmics",
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__propafenone",
     "Generic Name":"propafenone",
     "Brand Name":"Rythmol",
     "Therapeutic Class":"Antiarrhythmic",
@@ -736,14 +828,16 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__sotalol",
     "Generic Name":"sotalol",
-    "Brand Name":"",
+    "Brand Name":null,
     "Therapeutic Class":"Antiarrhythmic",
     "Dosage Forms and Strengths":"Tabs: 80 mg, 160 mg",
     "Category":"Antiarrhythmics",
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__flecainide",
     "Generic Name":"flecainide",
     "Brand Name":"Tambocor (d\/c)",
     "Therapeutic Class":"Antiarrhythmic",
@@ -752,6 +846,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__apixaban",
     "Generic Name":"apixaban",
     "Brand Name":"Eliquis",
     "Therapeutic Class":"Anticoagulant",
@@ -760,6 +855,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__rivaroxaban",
     "Generic Name":"rivaroxaban",
     "Brand Name":"Xarelto",
     "Therapeutic Class":"Anticoagulant",
@@ -768,6 +864,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__warfarin",
     "Generic Name":"warfarin",
     "Brand Name":"Coumadin (d\/c)",
     "Therapeutic Class":"Anticoagulant",
@@ -776,46 +873,52 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"nephrology-module__epoetin-alfa",
     "Generic Name":"epoetin alfa",
     "Brand Name":"Eprex",
     "Therapeutic Class":"Erythropoiesis stimulating agent",
-    "Dosage Forms and Strengths":"",
+    "Dosage Forms and Strengths":null,
     "Category":"Erythropoiesis stimulating agents",
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__darbepoetin-alfa",
     "Generic Name":"darbepoetin alfa",
     "Brand Name":"Aranesp",
     "Therapeutic Class":"Erythropoiesis stimulating agent",
-    "Dosage Forms and Strengths":"",
+    "Dosage Forms and Strengths":null,
     "Category":"Erythropoiesis stimulating agents",
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__iron-sucrose",
     "Generic Name":"iron sucrose",
     "Brand Name":"Venofer",
     "Therapeutic Class":"Iron supplement",
-    "Dosage Forms and Strengths":"",
+    "Dosage Forms and Strengths":null,
     "Category":"Iron supplements",
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__sodium-ferric-gluconate-complex",
     "Generic Name":"sodium ferric gluconate\ncomplex",
     "Brand Name":"Ferrlecit",
     "Therapeutic Class":"Iron supplement",
-    "Dosage Forms and Strengths":"",
+    "Dosage Forms and Strengths":null,
     "Category":"Iron supplements",
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__ferric-derisomaltose",
     "Generic Name":"ferric derisomaltose",
     "Brand Name":"Monoferric",
     "Therapeutic Class":"Iron supplement",
-    "Dosage Forms and Strengths":"",
+    "Dosage Forms and Strengths":null,
     "Category":"Iron supplements",
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__sevelamer-carbonate",
     "Generic Name":"sevelamer carbonate",
     "Brand Name":"Renvela",
     "Therapeutic Class":"Non-absorbable polymer-based\nphosphate binder",
@@ -824,6 +927,7 @@
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__lanthanum",
     "Generic Name":"lanthanum",
     "Brand Name":"Fosrenol (d\/c)",
     "Therapeutic Class":"Trivalent cation-based\nphosphate binder",
@@ -832,6 +936,7 @@
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__alfacalcidol",
     "Generic Name":"alfacalcidol",
     "Brand Name":"One-Alpha",
     "Therapeutic Class":"Vitamin D analogue",
@@ -840,6 +945,7 @@
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__calcitriol",
     "Generic Name":"calcitriol",
     "Brand Name":"Rocaltrol",
     "Therapeutic Class":"Vitamin D analogue",
@@ -848,46 +954,52 @@
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__sodium-polystyrene-sulfonate",
     "Generic Name":"sodium polystyrene sulfonate",
     "Brand Name":"Kayexalate\nSolystat",
     "Therapeutic Class":"Cation-exchange resin",
-    "Dosage Forms and Strengths":"",
+    "Dosage Forms and Strengths":null,
     "Category":"Cation-exchange resins",
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__calcium-polystyrene-sulfonate",
     "Generic Name":"calcium polystyrene sulfonate",
     "Brand Name":"Resonium Calcium",
     "Therapeutic Class":"Cation-exchange resin",
-    "Dosage Forms and Strengths":"",
+    "Dosage Forms and Strengths":null,
     "Category":"Cation-exchange resins",
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__sodium-zirconium-cyclosilicate",
     "Generic Name":"sodium zirconium cyclosilicate",
     "Brand Name":"Lokelma",
     "Therapeutic Class":"Cation-exchange resin",
-    "Dosage Forms and Strengths":"",
+    "Dosage Forms and Strengths":null,
     "Category":"Cation-exchange resins",
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__patiromer-sorbitex-calcium",
     "Generic Name":"patiromer sorbitex calcium",
     "Brand Name":"Veltassa",
     "Therapeutic Class":"Cation-exchange resin",
-    "Dosage Forms and Strengths":"",
+    "Dosage Forms and Strengths":null,
     "Category":"Cation-exchange resins",
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__sodium-bicarbonate",
     "Generic Name":"sodium bicarbonate",
-    "Brand Name":"",
+    "Brand Name":null,
     "Therapeutic Class":"Alkalinizer",
     "Dosage Forms and Strengths":"Powder\nTabs: 325 mg, 500 mg\nIV Solution: 42 mg\/mL, 75 mg\/mL, 84 mg\/mL",
     "Category":"Miscellaneous",
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__semaglutide",
     "Generic Name":"semaglutide",
     "Brand Name":"Ozempic",
     "Therapeutic Class":"GLP-1 analogue",
@@ -896,6 +1008,7 @@
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__empagliflozin",
     "Generic Name":"empagliflozin",
     "Brand Name":"Jardiance",
     "Therapeutic Class":"SGLT2 inhibitor",
@@ -904,6 +1017,7 @@
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__dapagliflozin",
     "Generic Name":"dapagliflozin",
     "Brand Name":"Forxiga",
     "Therapeutic Class":"SGLT2 inhibitor",
@@ -912,6 +1026,7 @@
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__canagliflozin",
     "Generic Name":"canagliflozin",
     "Brand Name":"Invokana",
     "Therapeutic Class":"SGLT2 inhibitor",
@@ -920,6 +1035,7 @@
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__finerenone",
     "Generic Name":"finerenone",
     "Brand Name":"Kerendia",
     "Therapeutic Class":"Aldosterone Antagonist",
@@ -928,6 +1044,7 @@
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"nephrology-module__cinacalcet",
     "Generic Name":"cinacalcet",
     "Brand Name":"Sensipar (d\/c)",
     "Therapeutic Class":"Calcimimetic agent",
@@ -936,6 +1053,7 @@
     "Module Name":"NEPHROLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__levothyroxine",
     "Generic Name":"levothyroxine",
     "Brand Name":"Eltroxin\nSynthroid",
     "Therapeutic Class":"Thyroid Hormone",
@@ -944,6 +1062,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__liothyronine",
     "Generic Name":"liothyronine",
     "Brand Name":"Cytomel",
     "Therapeutic Class":"Thyroid Hormone",
@@ -952,6 +1071,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__propylthiouracil",
     "Generic Name":"propylthiouracil",
     "Brand Name":"Halycil",
     "Therapeutic Class":"Antithyroid Agent",
@@ -960,6 +1080,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__methimazole",
     "Generic Name":"methimazole",
     "Brand Name":"Tapazole",
     "Therapeutic Class":"Antithyroid Agent",
@@ -968,6 +1089,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__alendronate",
     "Generic Name":"alendronate",
     "Brand Name":"Fosamax",
     "Therapeutic Class":"Bisphosphonate",
@@ -976,6 +1098,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__alendronate-cholecalciferol",
     "Generic Name":"alendronate\/cholecalciferol",
     "Brand Name":"Fosavance",
     "Therapeutic Class":"Bisphosphonate",
@@ -984,6 +1107,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__risedronate",
     "Generic Name":"risedronate",
     "Brand Name":"Actonel",
     "Therapeutic Class":"Bisphosphonate",
@@ -992,6 +1116,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__denosumab",
     "Generic Name":"denosumab",
     "Brand Name":"Jubbonti\nProlia\nWyost\nXgeva",
     "Therapeutic Class":"RANK-L inhibitor",
@@ -1000,6 +1125,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__insulin-aspart",
     "Generic Name":"insulin aspart",
     "Brand Name":"Fiasp\nFiasp FlexTouch\nNovoRapid\nNovoRapid FlexTouch\nTrurapi\nTrurapi SoloSTAR\nKirsty",
     "Therapeutic Class":"Rapid-acting insulin",
@@ -1008,6 +1134,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__insulin-glulisine",
     "Generic Name":"insulin glulisine",
     "Brand Name":"Apidra\nApidra SoloSTAR",
     "Therapeutic Class":"Rapid-acting insulin",
@@ -1016,6 +1143,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__insulin-lispro",
     "Generic Name":"insulin lispro",
     "Brand Name":"Admelog\nAdmelog SoloSTAR\nHumalog\nHumalog KwikPen\nHumalog 200 U\/mL KwikPen",
     "Therapeutic Class":"Rapid-acting insulin",
@@ -1024,6 +1152,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__insulin-regular",
     "Generic Name":"insulin regular",
     "Brand Name":"Humulin-R\nHumulin R KwikPen\nNovolin ge Toronto",
     "Therapeutic Class":"Short-acting insulin",
@@ -1032,6 +1161,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__insulin-nph",
     "Generic Name":"insulin NPH",
     "Brand Name":"Humulin-N\nHumulin-N KwikPen\nNovolin ge NPH",
     "Therapeutic Class":"Intermediate-acting\ninsulin",
@@ -1040,6 +1170,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__regular-nph",
     "Generic Name":"regular\/NPH",
     "Brand Name":"Humulin 30\/70\nNovolin ge 30\/70",
     "Therapeutic Class":"Mixed insulin",
@@ -1048,6 +1179,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__lispro-lispro-protamine",
     "Generic Name":"lispro\/lispro protamine",
     "Brand Name":"Humalog Mix25\nHumalog Mix25 KwikPen\nHumalog Mix50\nHumalog Mix50 KwikPen",
     "Therapeutic Class":"Mixed insulin",
@@ -1056,6 +1188,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__aspart-aspart-protamine",
     "Generic Name":"aspart\/aspart\nprotamine",
     "Brand Name":"NovoMix 30",
     "Therapeutic Class":"Mixed insulin",
@@ -1064,6 +1197,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__insulin-degludec",
     "Generic Name":"insulin degludec",
     "Brand Name":"Tresiba\nTresiba FlexTouch",
     "Therapeutic Class":"Long-acting insulin",
@@ -1072,6 +1206,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__insulin-detemir",
     "Generic Name":"insulin detemir",
     "Brand Name":"Levemir\nLevemir FlexTouch",
     "Therapeutic Class":"Long-acting insulin",
@@ -1080,6 +1215,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__insulin-glargine",
     "Generic Name":"insulin glargine",
     "Brand Name":"Basaglar\nBasaglar KwikPen\nLantus\nLantus SoloSTAR\nToujeo SoloSTAR\nToujeo DoubleSTAR\nSemglee",
     "Therapeutic Class":"Long-acting insulin",
@@ -1088,6 +1224,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__metformin",
     "Generic Name":"metformin",
     "Brand Name":"Glumetza\nGlucophage",
     "Therapeutic Class":"Biguanide",
@@ -1096,6 +1233,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__gliclazide",
     "Generic Name":"gliclazide",
     "Brand Name":"Diamicron (d\/c)\nDiamicron MR",
     "Therapeutic Class":"Sulfonylurea",
@@ -1104,6 +1242,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__glyburide",
     "Generic Name":"glyburide",
     "Brand Name":"Diabeta (d\/c)",
     "Therapeutic Class":"Sulfonylurea",
@@ -1112,6 +1251,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__pioglitazone",
     "Generic Name":"pioglitazone",
     "Brand Name":"Actos (d\/c)",
     "Therapeutic Class":"Thiazolidinedione",
@@ -1120,6 +1260,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__rosiglitazone",
     "Generic Name":"rosiglitazone",
     "Brand Name":"Avandia (d\/c)",
     "Therapeutic Class":"Thiazolidinedione",
@@ -1128,6 +1269,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__saxagliptin",
     "Generic Name":"saxagliptin",
     "Brand Name":"Onglyza",
     "Therapeutic Class":"DPP-4 inhibitor",
@@ -1136,6 +1278,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__sitagliptin",
     "Generic Name":"sitagliptin",
     "Brand Name":"Januvia",
     "Therapeutic Class":"DPP-4 inhibitor",
@@ -1144,6 +1287,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__dulaglutide",
     "Generic Name":"dulaglutide",
     "Brand Name":"Trulicity",
     "Therapeutic Class":"GLP-1 analogue",
@@ -1152,6 +1296,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__liraglutide",
     "Generic Name":"liraglutide",
     "Brand Name":"Victoza\nSaxenda",
     "Therapeutic Class":"GLP-1 analogue",
@@ -1160,6 +1305,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__semaglutide",
     "Generic Name":"semaglutide",
     "Brand Name":"Ozempic\nRybelsus\nWegovy",
     "Therapeutic Class":"GLP-1 analogue",
@@ -1168,6 +1314,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__empagliflozin",
     "Generic Name":"empagliflozin",
     "Brand Name":"Jardiance",
     "Therapeutic Class":"SGLT2 inhibitor",
@@ -1176,6 +1323,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__canagliflozin",
     "Generic Name":"canagliflozin",
     "Brand Name":"Invokana",
     "Therapeutic Class":"SGLT2 inhibitor",
@@ -1184,6 +1332,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__dapagliflozin",
     "Generic Name":"dapagliflozin",
     "Brand Name":"Forxiga",
     "Therapeutic Class":"SGLT2 inhibitor",
@@ -1192,6 +1341,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__dapagliflozin-metformin",
     "Generic Name":"dapagliflozin\/metformin",
     "Brand Name":"Xigduo",
     "Therapeutic Class":"Combination oral blood\nglucose lowering drug",
@@ -1200,6 +1350,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__empagliflozin-metformin",
     "Generic Name":"empagliflozin\/metformin",
     "Brand Name":"Synjardy",
     "Therapeutic Class":"Combination oral blood\nglucose lowering drug",
@@ -1208,6 +1359,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__linagliptin-metformin",
     "Generic Name":"linagliptin\/metformin",
     "Brand Name":"Jentadueto",
     "Therapeutic Class":"Combination oral blood\nglucose lowering drug",
@@ -1216,6 +1368,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__saxagliptin-metformin",
     "Generic Name":"saxagliptin\/metformin",
     "Brand Name":"Komboglyze",
     "Therapeutic Class":"Combination oral blood\nglucose lowering drug",
@@ -1224,6 +1377,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__sitagliptin-metformin",
     "Generic Name":"sitagliptin\/metformin",
     "Brand Name":"Janumet",
     "Therapeutic Class":"Combination oral blood\nglucose lowering drug",
@@ -1232,22 +1386,25 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__cabergoline",
     "Generic Name":"cabergoline",
     "Brand Name":"Dostinex",
     "Therapeutic Class":"ACTH Release Inhibitor",
-    "Dosage Forms and Strengths":"",
+    "Dosage Forms and Strengths":null,
     "Category":"ACTH Release Inhibitors",
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__pasireotide",
     "Generic Name":"pasireotide",
     "Brand Name":"Signifor\nSignifor LAR",
     "Therapeutic Class":"ACTH Release Inhibitor",
-    "Dosage Forms and Strengths":"",
+    "Dosage Forms and Strengths":null,
     "Category":"ACTH Release Inhibitors",
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__mitotane",
     "Generic Name":"mitotane",
     "Brand Name":"Lysodren",
     "Therapeutic Class":"Adrenolytic",
@@ -1256,6 +1413,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__acarbose",
     "Generic Name":"acarbose",
     "Brand Name":"Glucobay (d\/c)",
     "Therapeutic Class":"Alpha-glucosidase inhibitor",
@@ -1264,6 +1422,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"endocrinology-module__fludrocortisone",
     "Generic Name":"fludrocortisone",
     "Brand Name":"Florinef",
     "Therapeutic Class":"Corticosteroid",
@@ -1272,6 +1431,7 @@
     "Module Name":"ENDOCRINOLOGY MODULE"
   },
   {
+    "id":"neurology-module__carbamazepine",
     "Generic Name":"carbamazepine",
     "Brand Name":"Tegretol",
     "Therapeutic Class":"Anticonvulsant",
@@ -1280,6 +1440,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__divalproex-sodium",
     "Generic Name":"divalproex sodium",
     "Brand Name":"Epival",
     "Therapeutic Class":"Anticonvulsant",
@@ -1288,6 +1449,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__gabapentin",
     "Generic Name":"gabapentin",
     "Brand Name":"Neurontin",
     "Therapeutic Class":"Anticonvulsant",
@@ -1296,6 +1458,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__phenytoin-acid-form",
     "Generic Name":"phenytoin (acid form)",
     "Brand Name":"Dilantin",
     "Therapeutic Class":"Anticonvulsant",
@@ -1304,6 +1467,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__phenytoin-sodium",
     "Generic Name":"phenytoin sodium",
     "Brand Name":"Dilantin",
     "Therapeutic Class":"Anticonvulsant",
@@ -1312,6 +1476,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__topiramate",
     "Generic Name":"topiramate",
     "Brand Name":"Topamax",
     "Therapeutic Class":"Anticonvulsant",
@@ -1320,6 +1485,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__valproic-acid",
     "Generic Name":"valproic acid",
     "Brand Name":"Depakene",
     "Therapeutic Class":"Anticonvulsant",
@@ -1328,6 +1494,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__lamotrigine",
     "Generic Name":"lamotrigine",
     "Brand Name":"Lamictal",
     "Therapeutic Class":"Anticonvulsant",
@@ -1336,6 +1503,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__levetiracetam",
     "Generic Name":"levetiracetam",
     "Brand Name":"Keppra",
     "Therapeutic Class":"Anticonvulsant",
@@ -1344,6 +1512,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__lacosamide",
     "Generic Name":"lacosamide",
     "Brand Name":"Vimpat",
     "Therapeutic Class":"Anticonvulsant",
@@ -1352,6 +1521,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__clonazepam",
     "Generic Name":"clonazepam",
     "Brand Name":"Rivotril",
     "Therapeutic Class":"Benzodiazepine",
@@ -1360,6 +1530,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__temazepam",
     "Generic Name":"temazepam",
     "Brand Name":"Restoril",
     "Therapeutic Class":"Benzodiazepine",
@@ -1368,14 +1539,16 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__triazolam",
     "Generic Name":"triazolam",
-    "Brand Name":"",
+    "Brand Name":null,
     "Therapeutic Class":"Benzodiazepine",
     "Dosage Forms and Strengths":"Tab: 0.25 mg",
     "Category":"Benzodiazepines",
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__lorazepam",
     "Generic Name":"lorazepam",
     "Brand Name":"Ativan",
     "Therapeutic Class":"Benzodiazepine",
@@ -1384,14 +1557,16 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__oxazepam",
     "Generic Name":"oxazepam",
-    "Brand Name":"",
+    "Brand Name":null,
     "Therapeutic Class":"Benzodiazepine",
     "Dosage Forms and Strengths":"Tabs: 10 mg, 15 mg, 30 mg",
     "Category":"Benzodiazepines",
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__amitriptyline",
     "Generic Name":"amitriptyline",
     "Brand Name":"Elavil (Dormant)",
     "Therapeutic Class":"TCA",
@@ -1400,6 +1575,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__doxepin",
     "Generic Name":"doxepin",
     "Brand Name":"Silenor\nSinequan",
     "Therapeutic Class":"TCA",
@@ -1408,6 +1584,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__nortriptyline",
     "Generic Name":"nortriptyline",
     "Brand Name":"Aventyl",
     "Therapeutic Class":"TCA",
@@ -1416,6 +1593,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__zopiclone",
     "Generic Name":"zopiclone",
     "Brand Name":"Imovane",
     "Therapeutic Class":"Hypnotic",
@@ -1424,6 +1602,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__zolpidem",
     "Generic Name":"zolpidem",
     "Brand Name":"Sublinox",
     "Therapeutic Class":"Hypnotic",
@@ -1432,14 +1611,16 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__trazodone",
     "Generic Name":"trazodone",
-    "Brand Name":"",
+    "Brand Name":null,
     "Therapeutic Class":"Antidepressant",
     "Dosage Forms and Strengths":"Tabs: 50 mg, 75 mg, 100 mg, 150 mg",
     "Category":"Miscellaneous",
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__mirtazapine",
     "Generic Name":"mirtazapine",
     "Brand Name":"Remeron",
     "Therapeutic Class":"Antidepressant",
@@ -1448,6 +1629,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__lemborexant",
     "Generic Name":"lemborexant",
     "Brand Name":"Dayvigo",
     "Therapeutic Class":"Dual orexin receptor\nantagonist (DORA)",
@@ -1456,14 +1638,16 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__duloxetine",
     "Generic Name":"duloxetine",
-    "Brand Name":"",
+    "Brand Name":null,
     "Therapeutic Class":"Antidepressant",
     "Dosage Forms and Strengths":"Delayed-Release Caps: 30 mg, 60 mg",
     "Category":"Miscellaneous",
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__pregabalin",
     "Generic Name":"pregabalin",
     "Brand Name":"Lyrica",
     "Therapeutic Class":"Analgesic",
@@ -1472,6 +1656,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__sumatriptan-hemisulfate",
     "Generic Name":"sumatriptan hemisulfate",
     "Brand Name":"Imitrex",
     "Therapeutic Class":"5-HT1 Receptor Agonist\n(triptan)",
@@ -1480,6 +1665,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__sumatriptan-succinate",
     "Generic Name":"sumatriptan succinate",
     "Brand Name":"Imitrex",
     "Therapeutic Class":"5-HT1 Receptor Agonist\n(triptan)",
@@ -1488,6 +1674,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__rizatriptan",
     "Generic Name":"rizatriptan",
     "Brand Name":"Maxalt",
     "Therapeutic Class":"5-HT1 Receptor Agonist\n(triptan)",
@@ -1496,6 +1683,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__erenumab",
     "Generic Name":"erenumab",
     "Brand Name":"Aimovig",
     "Therapeutic Class":"CGRP inhibitor",
@@ -1504,6 +1692,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__rimegepant",
     "Generic Name":"rimegepant",
     "Brand Name":"Nurtec",
     "Therapeutic Class":"CGRP inhibitor",
@@ -1512,6 +1701,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__ubrogepant",
     "Generic Name":"ubrogepant",
     "Brand Name":"Ubrelvy",
     "Therapeutic Class":"CGRP inhibitor",
@@ -1520,6 +1710,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__levodopa-carbidopa",
     "Generic Name":"levodopa\/carbidopa",
     "Brand Name":"Sinemet (d\/c)",
     "Therapeutic Class":"Anti-Parkinson agent",
@@ -1528,6 +1719,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__levodopa-benserazide",
     "Generic Name":"levodopa\/benserazide",
     "Brand Name":"Prolopa",
     "Therapeutic Class":"Anti-Parkinson agent",
@@ -1536,6 +1728,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__pramipexole",
     "Generic Name":"pramipexole",
     "Brand Name":"Mirapex",
     "Therapeutic Class":"Dopamine agonist",
@@ -1544,6 +1737,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__ropinirole",
     "Generic Name":"ropinirole",
     "Brand Name":"ReQuip (d\/c)",
     "Therapeutic Class":"Dopamine agonist",
@@ -1552,6 +1746,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__donepezil-hydrochloride",
     "Generic Name":"donepezil hydrochloride",
     "Brand Name":"Aricept",
     "Therapeutic Class":"Cholinesterase Inhibitor",
@@ -1560,6 +1755,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__galantamine",
     "Generic Name":"galantamine",
     "Brand Name":"Reminyl ER (d\/c)",
     "Therapeutic Class":"Cholinesterase Inhibitor",
@@ -1568,6 +1764,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__rivastigmine",
     "Generic Name":"rivastigmine",
     "Brand Name":"Exelon\nExelon Patch",
     "Therapeutic Class":"Cholinesterase Inhibitor",
@@ -1576,6 +1773,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__entacapone",
     "Generic Name":"entacapone",
     "Brand Name":"Comtan (Dormant)",
     "Therapeutic Class":"Catechol-O-methyltransferase\n(COMT) Inhibitor",
@@ -1584,6 +1782,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__rasagiline",
     "Generic Name":"rasagiline",
     "Brand Name":"Azilect",
     "Therapeutic Class":"Monoamine oxidase B (MAO-B)\nInhibitor",
@@ -1592,6 +1791,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"cardiovascular-module__sacubitril-valsartan",
     "Generic Name":"sacubitril\/valsartan",
     "Brand Name":"Entresto",
     "Therapeutic Class":"Neprilysin Inhibitor\/ARB",
@@ -1600,6 +1800,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__ivabradine",
     "Generic Name":"ivabradine",
     "Brand Name":"Lancora",
     "Therapeutic Class":"If current (funny channel) Inhibitor",
@@ -1608,14 +1809,16 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__dapagliflozin",
     "Generic Name":"dapagliflozin",
     "Brand Name":"Forxiga",
-    "Therapeutic Class":"Sodium-glucose cotransporter 2 (SGLT2) Inhibitor",
+    "Therapeutic Class":"SGLT2 Inhibitor",
     "Dosage Forms and Strengths":"Tabs: 10 mg",
     "Category":"Miscellaneous heart failure medications",
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__empagliflozin",
     "Generic Name":"empagliflozin",
     "Brand Name":"Jardiance",
     "Therapeutic Class":"SGLT2 Inhibitor",
@@ -1624,6 +1827,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"cardiovascular-module__digoxin",
     "Generic Name":"digoxin",
     "Brand Name":"Lanoxin (d\/c)\nToloxin (d\/c)",
     "Therapeutic Class":"Cardiac Glycoside",
@@ -1632,6 +1836,7 @@
     "Module Name":"CARDIOVASCULAR MODULE"
   },
   {
+    "id":"neurology-module__memantine",
     "Generic Name":"memantine",
     "Brand Name":"Ebixa",
     "Therapeutic Class":"NMDA Receptor\nAntagonist",
@@ -1640,6 +1845,7 @@
     "Module Name":"NEUROLOGY MODULE"
   },
   {
+    "id":"neurology-module__amantadine",
     "Generic Name":"amantadine",
     "Brand Name":"Symmetrel (d\/c)",
     "Therapeutic Class":"Antiparkinsonian Agent\n\/ Antiviral",

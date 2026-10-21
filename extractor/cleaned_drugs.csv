@@ -1,0 +1,441 @@
+id,Generic Name,Brand Name,Therapeutic Class,Dosage Forms and Strengths,Category,Module Name
+respiratory-module__ipratropium,ipratropium,"Atrovent
+Ipravent",SAMA,"HFA: 20 mcg/inhalation (inh)
+Nebules: 125 mcg/mL (2 mL), 250 mcg/mL
+(1 mL and 2 mL)
+Inh solution: 250 mcg/mL",Inhaled muscarinic antagonists,RESPIRATORY MODULE
+respiratory-module__glycopyrronium,glycopyrronium,Seebri,LAMA,Breezhaler Caps: 50 mcg,Inhaled muscarinic antagonists,RESPIRATORY MODULE
+respiratory-module__tiotropium,tiotropium,Spiriva,LAMA,"Handihaler Caps: 18 mcg
+Respimat: 2.5 mcg/actuation (act)",Inhaled muscarinic antagonists,RESPIRATORY MODULE
+respiratory-module__aclidinium,aclidinium,Tudorza,LAMA,Genuair: 400 mcg/inh,Inhaled muscarinic antagonists,RESPIRATORY MODULE
+respiratory-module__umeclidinium,umeclidinium,Incruse,LAMA,Ellipta: 62.5 mcg/inh,Inhaled muscarinic antagonists,RESPIRATORY MODULE
+respiratory-module__salbutamol,salbutamol,"Ventolin
+Airomir (Dormant)",SABA,"Diskus: 200 mcg/inh
+HFA: 100 mcg/inh
+IV Solution: 1 mg/mL
+Respirator Solution: 5 mg/mL
+Nebules (2.5 mL): 0.5 mg/mL, 1 mg/mL, 2
+mg/mL",Inhaled beta-agonists,RESPIRATORY MODULE
+respiratory-module__terbutaline,terbutaline,Bricanyl,SABA,Turbuhaler: 0.5 mg/inh,Inhaled beta-agonists,RESPIRATORY MODULE
+respiratory-module__salmeterol,salmeterol,Serevent,LABA,Diskus: 50 mcg/inh,Inhaled beta-agonists,RESPIRATORY MODULE
+respiratory-module__formoterol,formoterol,Oxeze,LABA,"Turbuhaler: 6 mcg, 12 mcg",Inhaled beta-agonists,RESPIRATORY MODULE
+respiratory-module__dexamethasone,dexamethasone,Decadron (d/c),Systemic Corticosteroid,"Tabs: 0.5 mg, 2 mg, 4 mg
+Parenteral Solution: 4 mg/mL, 10 mg/mL
+Elixir: 0.5 mg/5 mL",Systemic Corticosteroids,RESPIRATORY MODULE
+respiratory-module__hydrocortisone,hydrocortisone,"Cortef
+Solu-Cortef",Systemic Corticosteroid,"Tabs: 10 mg, 20 mg
+Injection (Inj): 100 mg, 250 mg, 500 mg, 1 g",Systemic Corticosteroids,RESPIRATORY MODULE
+respiratory-module__methylprednisolone,methylprednisolone,"Medrol
+Solu-Medrol
+Depo-Medrol",Systemic Corticosteroid,"Tabs: 4 mg, 16 mg
+Inj: 40 mg, 125 mg, 500 mg, 1 g
+Parenteral Suspension: 20 mg/mL, 40
+mg/mL, 80 mg/mL",Systemic Corticosteroids,RESPIRATORY MODULE
+respiratory-module__prednisone,prednisone,Winpred,Systemic Corticosteroid,"Tabs: 1 mg, 5 mg, 50 mg",Systemic Corticosteroids,RESPIRATORY MODULE
+respiratory-module__beclomethasone-dipropionate,beclomethasone dipropionate,QVAR,ICS,"HFA: 50 mcg/inh, 100 mcg/inh",Inhaled Corticosteroids (ICS),RESPIRATORY MODULE
+respiratory-module__budesonide,budesonide,Pulmicort,ICS,"Turbuhaler: 100 mcg, 200 mcg, 400 mcg
+Nebules (2 mL): 0.125 mg/mL, 0.25 mg/mL,
+0.5 mg/mL",Inhaled Corticosteroids (ICS),RESPIRATORY MODULE
+respiratory-module__ciclesonide,ciclesonide,Alvesco,ICS,"HFA: 100 mcg, 200 mcg",Inhaled Corticosteroids (ICS),RESPIRATORY MODULE
+respiratory-module__fluticasone-propionate,fluticasone propionate,"Flovent
+Aermony (d/c)",ICS,"Diskus: 100 mcg, 250 mcg, 500 mcg
+HFA: 50 mcg, 125 mcg, 250 mcg",Inhaled Corticosteroids (ICS),RESPIRATORY MODULE
+respiratory-module__mometasone-furoate,mometasone furoate,Asmanex,ICS,"Twisthaler: 100 mcg, 200 mcg, 400 mcg",Inhaled Corticosteroids (ICS),RESPIRATORY MODULE
+respiratory-module__ipratropium-salbutamol,ipratropium-salbutamol,Combivent,SAMA-SABA,"Respimat: 20 mcg/100 mcg
+Inh Solution: 0.5 mg/2.5 mg/2.5 mL",Combination inhalers: Muscarinic antagonist + Beta agonist,RESPIRATORY MODULE
+respiratory-module__umeclidinium-vilanterol,umeclidinium-vilanterol,Anoro,LAMA-LABA,Ellipta: 62.5 mcg/25 mcg,Combination inhalers: Muscarinic antagonist + Beta agonist,RESPIRATORY MODULE
+respiratory-module__aclidinium-formoterol,aclidinium-formoterol,Duaklir,LAMA-LABA,Genuair: 400 mcg/12 mcg,Combination inhalers: Muscarinic antagonist + Beta agonist,RESPIRATORY MODULE
+respiratory-module__tiotropium-olodaterol,tiotropium-olodaterol,Inspiolto,LAMA-LABA,Respimat: 2.5 mcg/2.5 mcg,Combination inhalers: Muscarinic antagonist + Beta agonist,RESPIRATORY MODULE
+respiratory-module__glycopyrronium-indacaterol,glycopyrronium-indacaterol,Ultibro,LAMA-LABA,Breezhaler Caps: 50 mcg/110 mcg,Combination inhalers: Muscarinic antagonist + Beta agonist,RESPIRATORY MODULE
+respiratory-module__budesonide-formoterol,budesonide-formoterol,Symbicort,ICS-LABA,"Turbuhaler: 100 mcg/6 mcg, 200 mcg/6 mcg",Combination inhalers: Inhaled corticosteroid + Beta agonist,RESPIRATORY MODULE
+respiratory-module__fluticasone-propionate-salmeterol,"fluticasone propionate-
+salmeterol","Advair
+Wixela",ICS-LABA,"HFA: 125 mcg/25 mcg, 250 mcg/25 mcg
+Diskus: 100 mcg/50 mcg, 250 mcg/50 mcg,
+500 mcg/50 mcg
+Wixela Inhub: 100 mcg/50 mcg, 250 mcg/50
+mcg, 500 mcg/50 mcg",Combination inhalers: Inhaled corticosteroid + Beta agonist,RESPIRATORY MODULE
+respiratory-module__fluticasone-furoate-vilanterol,fluticasone furoate-vilanterol,Breo,ICS-LABA,"Ellipta: 100 mcg/25 mcg, 200 mcg/25 mcg",Combination inhalers: Inhaled corticosteroid + Beta agonist,RESPIRATORY MODULE
+respiratory-module__mometasone-furoate-formoterol,"mometasone furoate-
+formoterol",Zenhale,ICS-LABA,"HFA: 100 mcg/5 mcg, 200 mcg/5 mcg",Combination inhalers: Inhaled corticosteroid + Beta agonist,RESPIRATORY MODULE
+respiratory-module__fluticasone-furoate-umeclidinium-vilanterol,"fluticasone furoate-
+umeclidinium-vilanterol",Trelegy,ICS-LAMA-LABA,"Ellipta: 100 mcg/62.5 mcg/25 mcg, 200
+mcg/62.5 mcg/25 mcg",Combination inhalers: Inhaled Corticosteroid + Muscarinic antagonist + Beta agonist,RESPIRATORY MODULE
+respiratory-module__budesonide-glycopyrronium-formoterol-fumarate,"budesonide-glycopyrronium-
+formoterol fumarate",Breztri,ICS-LAMA-LABA,Aerosphere: 160 mcg/7.2 mcg/5 mcg,Combination inhalers: Inhaled Corticosteroid + Muscarinic antagonist + Beta agonist,RESPIRATORY MODULE
+respiratory-module__nicotine-patchm,nicotine patchM,"Nicoderm
+Habitrol",NRT,"Nicoderm: 7 mg, 14 mg, 21 mg
+Habitrol: 7 mg, 14 mg, 21 mg",Nicotine Replacement Therapy (NRT),RESPIRATORY MODULE
+respiratory-module__nicotine-gumm,nicotine gumM,"Nicorette
+Thrive",NRT,"Gum: 2 mg, 4 mg",Nicotine Replacement Therapy (NRT),RESPIRATORY MODULE
+respiratory-module__nicotine-oral-inhalerm,nicotine oral inhalerM,Nicorette Inhaler,NRT,10 mg/cartridge (4 mg delivered),Nicotine Replacement Therapy (NRT),RESPIRATORY MODULE
+respiratory-module__nicotine-lozengem,nicotine lozengeM,"Nicorette
+Thrive",NRT,"Nicorette Lozenge: 2 mg, 4 mg
+Thrive Lozenge: 1 mg, 2 mg",Nicotine Replacement Therapy (NRT),RESPIRATORY MODULE
+respiratory-module__nicotine-spraym,nicotine sprayM,Nicorette QuickMist,NRT,1 mg/spray,Nicotine Replacement Therapy (NRT),RESPIRATORY MODULE
+respiratory-module__nicotine-pouchm,nicotine pouchM,Zonnic,NRT,4 mg/pouch,Nicotine Replacement Therapy (NRT),RESPIRATORY MODULE
+respiratory-module__bupropionm,bupropionM,Zyban,Smoking Cessation Aid,Sustained-Release (SR) Tabs: 150 mg,Smoking cessation aids,RESPIRATORY MODULE
+respiratory-module__vareniclinem,vareniclineM,Champix (d/c),Smoking Cessation Aid,"Tabs: 0.5 mg, 1 mg",Smoking cessation aids,RESPIRATORY MODULE
+respiratory-module__montelukast,montelukast,Singulair,"Leukotriene Receptor
+Antagonist","Chew Tabs: 4 mg, 5 mg
+Tabs: 10 mg
+Granules: 4 mg/sachet",Miscellaneous Respiratory agents,RESPIRATORY MODULE
+respiratory-module__roflumilast,roflumilast,Daxas,"Phosphodiesterase 4 (PDE4)
+Inhibitor",Tabs: 500 mcg,Miscellaneous Respiratory agents,RESPIRATORY MODULE
+respiratory-module__omalizumab,omalizumab,"Xolair
+Omlyclo",Anti-IgE antibody,"Solution for Injection: 75 mg/0.5 mL,
+150 mg/1.0 mL, 300 mg/2.0 mL",Miscellaneous Respiratory agents,RESPIRATORY MODULE
+respiratory-module__mepolizumab,mepolizumab,Nucala,Interleukin-5 (IL-5) Inhibitor,"Solution for Injection: 40 mg/0.4 mL,
+100 mg/mL",Miscellaneous Respiratory agents,RESPIRATORY MODULE
+respiratory-module__reslizumab,reslizumab,Cinqair,Interleukin-5 (IL-5) Inhibitor,Solution for Infusion: 10 mg / mL,Miscellaneous Respiratory agents,RESPIRATORY MODULE
+respiratory-module__elexacaftor-tezacaftor-ivacaftor,"elexacaftor-tezacaftor-
+ivacaftor",Trikafta,"Cystic fibrosis
+transmembrane conductance
+regulator modulator (CFTRm)",,Miscellaneous Respiratory agents,RESPIRATORY MODULE
+respiratory-module__tocilizumab,tocilizumab,"Actemra
+Tyenne
+Avtozma",Interleukin Inhibitor,,Miscellaneous Respiratory agents,RESPIRATORY MODULE
+respiratory-module__baricitinib,baricitinib,Olumiant,Janus kinase (JAK) Inhibitor,"Tabs: 2, 4 mg",Miscellaneous Respiratory agents,RESPIRATORY MODULE
+respiratory-module__nirmatrelvir-ritonavir,nirmatrelvir-ritonavir,Paxlovid,Antiviral,Tabs: 150 mg / 100 mg,Miscellaneous Respiratory agents,RESPIRATORY MODULE
+respiratory-module__remdesivir,remdesivir,Veklury,Antiviral,"Powder for Solution for Infusion: 100
+mg / vial",Miscellaneous Respiratory agents,RESPIRATORY MODULE
+respiratory-module__dextromethorphan,dextromethorphan,"Benylin Dry Cough
+Robitussin DM
+Various others",Antitussive,"Syrup: 7.5 mg/5 mL, 15 mg/5 mL, 30
+mg/10 mL
+Robitussin DM Gelcaps: 15 mg",Miscellaneous Respiratory agents,RESPIRATORY MODULE
+respiratory-module__guaifenesin,guaifenesin,"Mucinex Chest Congestion
+Robitussin Mucous & Phlegm
+Various others",Expectorant,"Mucinex Tabs: 600 mg
+Syrup: 100 mg/5 mL, 200 mg/5 mL",Miscellaneous Respiratory agents,RESPIRATORY MODULE
+cardiovascular-module__lisinopril,lisinopril,"Zestril
+Prinivil (d/c)",ACEI,"Tabs: 5 mg, 10 mg, 20 mg",Angiotensin Converting Enzyme Inhibitors (ACEIs),CARDIOVASCULAR MODULE
+cardiovascular-module__perindopril,perindopril,Coversyl,ACEI,"Tabs: 2 mg, 4 mg, 8 mg",Angiotensin Converting Enzyme Inhibitors (ACEIs),CARDIOVASCULAR MODULE
+cardiovascular-module__ramipril,ramipril,Altace,ACEI,"Caps: 1.25 mg, 2.5 mg, 5 mg, 10 mg, 15 mg",Angiotensin Converting Enzyme Inhibitors (ACEIs),CARDIOVASCULAR MODULE
+cardiovascular-module__trandolapril,trandolapril,Mavik,ACEI,"Caps: 0.5 mg, 1 mg, 2 mg, 4 mg",Angiotensin Converting Enzyme Inhibitors (ACEIs),CARDIOVASCULAR MODULE
+cardiovascular-module__candesartan,candesartan,Atacand,ARB,"Tabs: 4 mg, 8 mg, 16 mg, 32 mg",Angiotensin Receptor Blockers (ARBs),CARDIOVASCULAR MODULE
+cardiovascular-module__losartan,losartan,Cozaar,ARB,"Tabs: 25 mg, 50 mg, 100 mg",Angiotensin Receptor Blockers (ARBs),CARDIOVASCULAR MODULE
+cardiovascular-module__telmisartan,telmisartan,Micardis,ARB,"Tabs: 40 mg, 80 mg",Angiotensin Receptor Blockers (ARBs),CARDIOVASCULAR MODULE
+cardiovascular-module__valsartan,valsartan,Diovan,ARB,"Tabs: 40 mg, 80 mg, 160 mg, 320 mg",Angiotensin Receptor Blockers (ARBs),CARDIOVASCULAR MODULE
+cardiovascular-module__diltiazem,diltiazem,"Tiazac
+Tiazac XC
+Cardizem (d/c)",Non-DHP CCB,"Tabs: 30 mg, 60 mg
+ER/CD Caps: 120 mg, 180 mg, 240 mg, 300
+mg, 360 mg
+ER Tabs (XC): 120 mg, 180 mg, 240 mg, 300
+mg, 360 mg",Calcium Channel Blockers (CCBs),CARDIOVASCULAR MODULE
+cardiovascular-module__verapamil,verapamil,Isoptin SR,Non-DHP CCB,"Tabs: 80 mg, 120 mg
+SR Tabs: 120 mg",Calcium Channel Blockers (CCBs),CARDIOVASCULAR MODULE
+cardiovascular-module__amlodipine,amlodipine,Norvasc,DHP CCB,"Tabs: 2.5 mg, 5 mg, 10 mg",Calcium Channel Blockers (CCBs),CARDIOVASCULAR MODULE
+cardiovascular-module__atenolol,atenolol,Tenormin,Beta-blocker,"Tabs: 25 mg, 50 mg, 100 mg",Beta-blockers,CARDIOVASCULAR MODULE
+cardiovascular-module__bisoprolol,bisoprolol,Monocor (d/c),Beta-blocker,"Tabs: 1.25 mg, 2.5 mg, 5 mg, 10 mg",Beta-blockers,CARDIOVASCULAR MODULE
+cardiovascular-module__carvedilol,carvedilol,Coreg (d/c),Beta-blocker,"Tabs: 3.125 mg, 6.25 mg, 12.5 mg, 25 mg",Beta-blockers,CARDIOVASCULAR MODULE
+cardiovascular-module__metoprolol-tartrate,metoprolol tartrate,Lopresor (d/c),Beta-blocker,"Tabs: 25 mg, 50 mg, 100 mg
+SR Tabs: 100 mg, 200 mg",Beta-blockers,CARDIOVASCULAR MODULE
+cardiovascular-module__labetalol,labetalol,Trandate,Beta-blocker,"Tabs: 100 mg, 200 mg",Beta-blockers,CARDIOVASCULAR MODULE
+cardiovascular-module__propranolol,propranolol,Inderal (d/c),Beta-blocker,"Tabs: 10 mg, 20 mg, 40 mg, 80 mg
+ER Caps: 60 mg, 80 mg, 120 mg, 160 mg",Beta-blockers,CARDIOVASCULAR MODULE
+cardiovascular-module__chlorthalidone,chlorthalidone,Hygroton (d/c),Thiazide-like diuretic,"Tabs: 12.5 mg, 25 mg, 50 mg",Diuretics,CARDIOVASCULAR MODULE
+cardiovascular-module__hydrochlorothiazide,hydrochlorothiazide,Hydrodiuril (d/c),Thiazide diuretic,"Tabs: 12.5 mg, 25 mg, 50 mg",Diuretics,CARDIOVASCULAR MODULE
+cardiovascular-module__furosemide,furosemide,"Lasix (d/c)
+Lasix Oral Solution",Loop diuretic,"Tabs: 20 mg, 40 mg, 80 mg
+Oral Solution: 10 mg/mL
+Parenteral Solution: 10 mg/mL",Diuretics,CARDIOVASCULAR MODULE
+cardiovascular-module__eplerenone,eplerenone,Inspra,MRA,"Tabs: 25 mg, 50 mg",Mineralocorticoid Receptor Antagonists (MRAs),CARDIOVASCULAR MODULE
+cardiovascular-module__finerenone,finerenone,Kerendia,MRA,"Tabs: 10 mg, 20 mg, 40 mg",Mineralocorticoid Receptor Antagonists (MRAs),CARDIOVASCULAR MODULE
+cardiovascular-module__spironolactone,spironolactone,Aldactone (d/c),MRA,"Tabs: 25 mg, 100 mg",Mineralocorticoid Receptor Antagonists (MRAs),CARDIOVASCULAR MODULE
+cardiovascular-module__hydralazine,hydralazine,Apresoline (d/c),Vasodilator,"Tabs: 10 mg, 25 mg, 50 mg",Miscellaneous antihypertensive agents,CARDIOVASCULAR MODULE
+cardiovascular-module__perindopril-indapamide,perindopril-indapamide,Coversyl Plus,ACEI-diuretic,"Tabs: 2 mg/0.625 mg, 4 mg/1.25 mg, 8
+mg/2.5 mg",Combination antihypertensives,CARDIOVASCULAR MODULE
+cardiovascular-module__ramipril-hydrochlorothiazide,ramipril-hydrochlorothiazide,Altace HCT,ACEI-diuretic,"Tabs: 2.5 mg/12.5 mg, 5 mg/12.5 mg, 10
+mg/12.5 mg, 5 mg/25 mg, 10 mg/25 mg",Combination antihypertensives,CARDIOVASCULAR MODULE
+cardiovascular-module__candesartan-hydrochlorothiazide,candesartan-hydrochlorothiazide,Atacand Plus,ARB-diuretic,"Tabs: 16 mg/12.5 mg, 32 mg/12.5 mg,
+32 mg/25 mg",Combination antihypertensives,CARDIOVASCULAR MODULE
+cardiovascular-module__telmisartan-hydrochlorothiazide,telmisartan-hydrochlorothiazide,Micardis Plus,ARB-diuretic,"Tabs: 80 mg/12.5 mg, 80 mg/25 mg",Combination antihypertensives,CARDIOVASCULAR MODULE
+cardiovascular-module__atorvastatin,atorvastatin,Lipitor,"HMG-CoA Reductase
+Inhibitor","Tabs: 10 mg, 20 mg, 40 mg, 80 mg",HMG-CoA Reductase Inhibitors (Statins),CARDIOVASCULAR MODULE
+cardiovascular-module__rosuvastatin,rosuvastatin,Crestor,"HMG-CoA Reductase
+Inhibitor","Tabs: 5 mg, 10 mg, 20 mg, 40 mg",HMG-CoA Reductase Inhibitors (Statins),CARDIOVASCULAR MODULE
+cardiovascular-module__alirocumab,alirocumab,Praluent,PCSK9 inhibitor,"Auto-Injector: 75 mg/mL, 150 mg/mL",Proprotein convertase subtilisin kexin type 9 (PCSK9) inhibitors,CARDIOVASCULAR MODULE
+cardiovascular-module__evolocumab,evolocumab,Repatha,PCSK9 inhibitor,"Auto-Injector: 140 mg/mL
+Automated Mini-Doser: 420 mg/3.5 mL (120
+mg/mL)",Proprotein convertase subtilisin kexin type 9 (PCSK9) inhibitors,CARDIOVASCULAR MODULE
+cardiovascular-module__fenofibrate,fenofibrate,"Lipidil EZ
+Lipidil Supra",Fibrate,"EZ Tabs: 48 mg, 145 mg
+Caps (micronized): 67 mg, 200 mg
+Super Tabs: 100 mg, 160 mg
+Supra Tabs: 160 mg",Miscellaneous Lipid-lowering Agents,CARDIOVASCULAR MODULE
+cardiovascular-module__icosapent-ethyl,icosapent ethyl,Vascepa,Omega-3 Fatty Acid,Caps: 1 g,Miscellaneous Lipid-lowering Agents,CARDIOVASCULAR MODULE
+cardiovascular-module__ezetimibe,ezetimibe,Ezetrol,"Cholesterol Absorption
+Inhibitor",Tabs: 10 mg,Miscellaneous Lipid-lowering Agents,CARDIOVASCULAR MODULE
+cardiovascular-module__bempedoic-acid,bempedoic acid,Nilemdo,"ATP citrate lyase
+inhibitor",Tabs: 180 mg,Miscellaneous Lipid-lowering Agents,CARDIOVASCULAR MODULE
+cardiovascular-module__clopidogrel,clopidogrel,Plavix,"Platelet Aggregation
+Inhibitor","Tabs: 75 mg, 300 mg",Antiplatelet Agents,CARDIOVASCULAR MODULE
+cardiovascular-module__ticagrelor,ticagrelor,Brilinta,"Platelet Aggregation
+Inhibitor","Tabs: 60 mg, 90 mg",Antiplatelet Agents,CARDIOVASCULAR MODULE
+cardiovascular-module__isosorbide-dinitrate,isosorbide dinitrate,ISDN,Vasodilator,"Tabs: 10 mg, 30 mg",Antianginal Agents,CARDIOVASCULAR MODULE
+cardiovascular-module__isosorbide-mononitrate,isosorbide mononitrate,IMDUR,Vasodilator,ER Tab: 60 mg,Antianginal Agents,CARDIOVASCULAR MODULE
+cardiovascular-module__nitroglycerin,nitroglycerin,"Transderm-Nitro (d/c)
+Trinipatch
+Nitro-Dur
+Nitrostat
+Nitrolingual Pump spray",Vasodilator,"Transdermal Patches: 0.2 mg/hr, 0.4 mg/hr,
+0.6 mg/hr, 0.8 mg/hr
+Sublingual (SL) Tabs: 0.3 mg, 0.6 mg
+SL Spray: 0.4 mg/spray",Antianginal Agents,CARDIOVASCULAR MODULE
+cardiovascular-module__amiodarone,amiodarone,,Antiarrhythmic,"Tabs: 100 mg, 200 mg",Antiarrhythmics,CARDIOVASCULAR MODULE
+cardiovascular-module__propafenone,propafenone,Rythmol,Antiarrhythmic,"Tabs: 150 mg, 300 mg",Antiarrhythmics,CARDIOVASCULAR MODULE
+cardiovascular-module__sotalol,sotalol,,Antiarrhythmic,"Tabs: 80 mg, 160 mg",Antiarrhythmics,CARDIOVASCULAR MODULE
+cardiovascular-module__flecainide,flecainide,Tambocor (d/c),Antiarrhythmic,"Tabs: 50 mg, 100 mg",Antiarrhythmics,CARDIOVASCULAR MODULE
+cardiovascular-module__apixaban,apixaban,Eliquis,Anticoagulant,"Tabs: 2.5 mg, 5 mg",Anticoagulants,CARDIOVASCULAR MODULE
+cardiovascular-module__rivaroxaban,rivaroxaban,Xarelto,Anticoagulant,"Tabs: 2.5 mg, 10 mg, 15 mg, 20 mg",Anticoagulants,CARDIOVASCULAR MODULE
+cardiovascular-module__warfarin,warfarin,Coumadin (d/c),Anticoagulant,"Tabs: 1 mg, 2 mg, 2.5 mg, 3 mg, 4 mg, 5 mg,
+6 mg, 7.5 mg, 10 mg",Anticoagulants,CARDIOVASCULAR MODULE
+nephrology-module__epoetin-alfa,epoetin alfa,Eprex,Erythropoiesis stimulating agent,,Erythropoiesis stimulating agents,NEPHROLOGY MODULE
+nephrology-module__darbepoetin-alfa,darbepoetin alfa,Aranesp,Erythropoiesis stimulating agent,,Erythropoiesis stimulating agents,NEPHROLOGY MODULE
+nephrology-module__iron-sucrose,iron sucrose,Venofer,Iron supplement,,Iron supplements,NEPHROLOGY MODULE
+nephrology-module__sodium-ferric-gluconate-complex,"sodium ferric gluconate
+complex",Ferrlecit,Iron supplement,,Iron supplements,NEPHROLOGY MODULE
+nephrology-module__ferric-derisomaltose,ferric derisomaltose,Monoferric,Iron supplement,,Iron supplements,NEPHROLOGY MODULE
+nephrology-module__sevelamer-carbonate,sevelamer carbonate,Renvela,"Non-absorbable polymer-based
+phosphate binder",Tabs: 800 mg,Phosphate binders,NEPHROLOGY MODULE
+nephrology-module__lanthanum,lanthanum,Fosrenol (d/c),"Trivalent cation-based
+phosphate binder","Chew Tabs: 250 mg, 500 mg, 750 mg,
+1000 mg",Phosphate binders,NEPHROLOGY MODULE
+nephrology-module__alfacalcidol,alfacalcidol,One-Alpha,Vitamin D analogue,"Drops: 2 mcg/mL (1 drop = 0.1 mcg)
+IV Solution: 2 mcg/mL
+Soft Gelcaps: 0.25 mcg, 1 mcg",Vitamin D analogues,NEPHROLOGY MODULE
+nephrology-module__calcitriol,calcitriol,Rocaltrol,Vitamin D analogue,"Capsules: 0.25 mcg, 0.5 mcg",Vitamin D analogues,NEPHROLOGY MODULE
+nephrology-module__sodium-polystyrene-sulfonate,sodium polystyrene sulfonate,"Kayexalate
+Solystat",Cation-exchange resin,,Cation-exchange resins,NEPHROLOGY MODULE
+nephrology-module__calcium-polystyrene-sulfonate,calcium polystyrene sulfonate,Resonium Calcium,Cation-exchange resin,,Cation-exchange resins,NEPHROLOGY MODULE
+nephrology-module__sodium-zirconium-cyclosilicate,sodium zirconium cyclosilicate,Lokelma,Cation-exchange resin,,Cation-exchange resins,NEPHROLOGY MODULE
+nephrology-module__patiromer-sorbitex-calcium,patiromer sorbitex calcium,Veltassa,Cation-exchange resin,,Cation-exchange resins,NEPHROLOGY MODULE
+nephrology-module__sodium-bicarbonate,sodium bicarbonate,,Alkalinizer,"Powder
+Tabs: 325 mg, 500 mg
+IV Solution: 42 mg/mL, 75 mg/mL, 84 mg/mL",Miscellaneous,NEPHROLOGY MODULE
+nephrology-module__semaglutide,semaglutide,Ozempic,GLP-1 analogue,"SC inj: 0.68 mg/mL, 1.34 mg/mL, 2.68 mg / mL
+(prefilled pen: 1.5 mL, 3.0 mL)",Miscellaneous,NEPHROLOGY MODULE
+nephrology-module__empagliflozin,empagliflozin,Jardiance,SGLT2 inhibitor,Tabs: 10 mg,Miscellaneous,NEPHROLOGY MODULE
+nephrology-module__dapagliflozin,dapagliflozin,Forxiga,SGLT2 inhibitor,Tabs: 10 mg,Miscellaneous,NEPHROLOGY MODULE
+nephrology-module__canagliflozin,canagliflozin,Invokana,SGLT2 inhibitor,Tabs: 100 mg,Miscellaneous,NEPHROLOGY MODULE
+nephrology-module__finerenone,finerenone,Kerendia,Aldosterone Antagonist,"Tabs: 10 mg, 20 mg",Miscellaneous,NEPHROLOGY MODULE
+nephrology-module__cinacalcet,cinacalcet,Sensipar (d/c),Calcimimetic agent,"Tabs: 30 mg, 60 mg, 90 mg",Miscellaneous,NEPHROLOGY MODULE
+endocrinology-module__levothyroxine,levothyroxine,"Eltroxin
+Synthroid",Thyroid Hormone,"Eltroxin Tabs: 50 mcg, 100 mcg, 150 mcg, 200 mcg,
+300 mcg
+Synthroid Tabs: 25 mcg, 50 mcg, 75 mcg, 88 mcg,
+100 mcg, 112 mcg, 125 mcg, 137 mcg, 150 mcg,
+175 mcg, 200 mcg, 300 mcg",Thyroid hormones,ENDOCRINOLOGY MODULE
+endocrinology-module__liothyronine,liothyronine,Cytomel,Thyroid Hormone,"Tabs: 5 mcg, 25 mcg",Thyroid hormones,ENDOCRINOLOGY MODULE
+endocrinology-module__propylthiouracil,propylthiouracil,Halycil,Antithyroid Agent,Tabs: 50 mg,Antithyroid agents,ENDOCRINOLOGY MODULE
+endocrinology-module__methimazole,methimazole,Tapazole,Antithyroid Agent,"Tabs: 5 mg, 10 mg",Antithyroid agents,ENDOCRINOLOGY MODULE
+endocrinology-module__alendronate,alendronate,Fosamax,Bisphosphonate,"Tabs: 5 mg, 10 mg, 70 mg",Bisphosphonates,ENDOCRINOLOGY MODULE
+endocrinology-module__alendronate-cholecalciferol,alendronate/cholecalciferol,Fosavance,Bisphosphonate,"Tabs: 70 mg/2800 unit, 70 mg/5600 unit",Bisphosphonates,ENDOCRINOLOGY MODULE
+endocrinology-module__risedronate,risedronate,Actonel,Bisphosphonate,"Tabs: 5 mg, 30 mg, 35 mg, 150 mg
+Delayed-Release Tabs: 35 mg",Bisphosphonates,ENDOCRINOLOGY MODULE
+endocrinology-module__denosumab,denosumab,"Jubbonti
+Prolia
+Wyost
+Xgeva",RANK-L inhibitor,"Jubbonti solution for injection: 60 mg/mL
+Prolia solution for injection: 60 mg/mL
+Wyost solution for injection: 120 mg/1.7 mL
+Xgeva solution for injection: 120 mg/1.7 mL",RANK-L inhibitors,ENDOCRINOLOGY MODULE
+endocrinology-module__insulin-aspart,insulin aspart,"Fiasp
+Fiasp FlexTouch
+NovoRapid
+NovoRapid FlexTouch
+Trurapi
+Trurapi SoloSTAR
+Kirsty",Rapid-acting insulin,"SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)
+SC inj: 100 U/mL (prefilled pen: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
+endocrinology-module__insulin-glulisine,insulin glulisine,"Apidra
+Apidra SoloSTAR",Rapid-acting insulin,"SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)
+SC inj: 100 U/mL (prefilled pen: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
+endocrinology-module__insulin-lispro,insulin lispro,"Admelog
+Admelog SoloSTAR
+Humalog
+Humalog KwikPen
+Humalog 200 U/mL KwikPen",Rapid-acting insulin,"SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)
+SC inj: 100 U/mL (prefilled pen: 3 mL)
+SC inj: 200 U/mL (prefilled pen: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
+endocrinology-module__insulin-regular,insulin regular,"Humulin-R
+Humulin R KwikPen
+Novolin ge Toronto",Short-acting insulin,"SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)
+SC inj (Humulin only): 100 U/mL (prefilled pen: 3
+mL)",Insulin,ENDOCRINOLOGY MODULE
+endocrinology-module__insulin-nph,insulin NPH,"Humulin-N
+Humulin-N KwikPen
+Novolin ge NPH","Intermediate-acting
+insulin","SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)
+SC inj (Humulin only): 100 U/mL (prefilled pen: 3
+mL)",Insulin,ENDOCRINOLOGY MODULE
+endocrinology-module__regular-nph,regular/NPH,"Humulin 30/70
+Novolin ge 30/70",Mixed insulin,"SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
+endocrinology-module__lispro-lispro-protamine,lispro/lispro protamine,"Humalog Mix25
+Humalog Mix25 KwikPen
+Humalog Mix50
+Humalog Mix50 KwikPen",Mixed insulin,"SC inj: 100 U/mL (vials: 10 mL, cartridges: 3 mL)
+SC inj: 100 U/mL (prefilled pen: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
+endocrinology-module__aspart-aspart-protamine,"aspart/aspart
+protamine",NovoMix 30,Mixed insulin,SC inj: 100 U/mL (cartridges: 3 mL),Insulin,ENDOCRINOLOGY MODULE
+endocrinology-module__insulin-degludec,insulin degludec,"Tresiba
+Tresiba FlexTouch",Long-acting insulin,"SC inj: 100 U/mL (cartridges: 3 mL)
+SC inj: 100 U/mL (prefilled pen: 3 mL)
+SC inj: 200 U/mL (prefilled pen: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
+endocrinology-module__insulin-detemir,insulin detemir,"Levemir
+Levemir FlexTouch",Long-acting insulin,"SC inj: 100 U/mL (cartridges: 3 mL)
+SC inj: 100 U/mL (prefilled pen: 3 mL)",Insulin,ENDOCRINOLOGY MODULE
+endocrinology-module__insulin-glargine,insulin glargine,"Basaglar
+Basaglar KwikPen
+Lantus
+Lantus SoloSTAR
+Toujeo SoloSTAR
+Toujeo DoubleSTAR
+Semglee",Long-acting insulin,"Basaglar SC inj: 100 U/mL (cartridges: 3 mL)
+Basaglar SC inj: 100 U/mL (prefilled pen: 3 mL)
+Lantus SC inj: 100 U/mL (vials: 10 mL, cartridges: 3
+mL)
+Lantus SC inj: 100 U/mL (prefilled pen: 3 mL)
+Toujeo SC inj: 300 U/mL (prefilled pen: 1.5 mL, 3
+mL)",Insulin,ENDOCRINOLOGY MODULE
+endocrinology-module__metformin,metformin,"Glumetza
+Glucophage",Biguanide,"ER Tabs: 500 mg, 1000 mg
+Immediate-Release (IR) Tabs: 500 mg, 850 mg,
+1000 mg",Biguanide,ENDOCRINOLOGY MODULE
+endocrinology-module__gliclazide,gliclazide,"Diamicron (d/c)
+Diamicron MR",Sulfonylurea,"Tabs: 80 mg
+Modified Release (MR) Tabs: 30 mg, 60 mg",Sulfonylureas,ENDOCRINOLOGY MODULE
+endocrinology-module__glyburide,glyburide,Diabeta (d/c),Sulfonylurea,"Tabs: 2.5 mg, 5 mg",Sulfonylureas,ENDOCRINOLOGY MODULE
+endocrinology-module__pioglitazone,pioglitazone,Actos (d/c),Thiazolidinedione,"Tabs: 15 mg, 30 mg, 45 mg",Thiazolidinediones,ENDOCRINOLOGY MODULE
+endocrinology-module__rosiglitazone,rosiglitazone,Avandia (d/c),Thiazolidinedione,"Tabs: 2 mg, 4 mg, 8 mg",Thiazolidinediones,ENDOCRINOLOGY MODULE
+endocrinology-module__saxagliptin,saxagliptin,Onglyza,DPP-4 inhibitor,"Tabs: 2.5 mg, 5 mg",DPP-4 inhibitors,ENDOCRINOLOGY MODULE
+endocrinology-module__sitagliptin,sitagliptin,Januvia,DPP-4 inhibitor,"Tabs: 25 mg, 50 mg, 100 mg",DPP-4 inhibitors,ENDOCRINOLOGY MODULE
+endocrinology-module__dulaglutide,dulaglutide,Trulicity,GLP-1 analogue,"SC inj: 0.75 mg/0.5 mL, 1.5 mg/0.5 mL
+(prefilled pen: 0.5 mL)",GLP-1 analogues,ENDOCRINOLOGY MODULE
+endocrinology-module__liraglutide,liraglutide,"Victoza
+Saxenda",GLP-1 analogue,SC inj: 6 mg/mL (prefilled pen: 3 mL),GLP-1 analogues,ENDOCRINOLOGY MODULE
+endocrinology-module__semaglutide,semaglutide,"Ozempic
+Rybelsus
+Wegovy",GLP-1 analogue,"Ozempic SC inj: 0.68 mg/mL, 1.34 mg/mL
+(prefilled pen: 1.5 mL, 3.0 mL)
+Rybelsus Tabs: 1.5 mg, 3 mg, 4 mg, 7 mg, 9
+mg, 14 mg
+Wegovy SC inj: 1 mg/1.5 mL, 2 mg/1.5 mL, 4
+mg/3 mL, 6.8 mg/3 mL, 9.6 mg/3 mL
+(prefilled pen: 1.5 mL, 3.0 mL)",GLP-1 analogues,ENDOCRINOLOGY MODULE
+endocrinology-module__empagliflozin,empagliflozin,Jardiance,SGLT2 inhibitor,"Tabs: 10 mg, 25 mg",SGLT2 inhibitors,ENDOCRINOLOGY MODULE
+endocrinology-module__canagliflozin,canagliflozin,Invokana,SGLT2 inhibitor,"Tabs: 100 mg, 300 mg",SGLT2 inhibitors,ENDOCRINOLOGY MODULE
+endocrinology-module__dapagliflozin,dapagliflozin,Forxiga,SGLT2 inhibitor,"Tabs: 5 mg, 10 mg",SGLT2 inhibitors,ENDOCRINOLOGY MODULE
+endocrinology-module__dapagliflozin-metformin,dapagliflozin/metformin,Xigduo,"Combination oral blood
+glucose lowering drug","Tabs: 5 mg/850 mg, 5 mg/1000 mg",Combination oral blood glucose lowering drugs,ENDOCRINOLOGY MODULE
+endocrinology-module__empagliflozin-metformin,empagliflozin/metformin,Synjardy,"Combination oral blood
+glucose lowering drug","Tabs: 5 mg/500 mg, 5 mg/850 mg, 5 mg/1000
+mg, 12.5 mg/500 mg, 12.5 mg/850 mg, 12.5
+mg/1000 mg",Combination oral blood glucose lowering drugs,ENDOCRINOLOGY MODULE
+endocrinology-module__linagliptin-metformin,linagliptin/metformin,Jentadueto,"Combination oral blood
+glucose lowering drug","Tabs: 2.5 mg/500 mg, 2.5 mg/850 mg, 2.5
+mg/1000 mg",Combination oral blood glucose lowering drugs,ENDOCRINOLOGY MODULE
+endocrinology-module__saxagliptin-metformin,saxagliptin/metformin,Komboglyze,"Combination oral blood
+glucose lowering drug",Tabs: 2.5 mg/850 mg,Combination oral blood glucose lowering drugs,ENDOCRINOLOGY MODULE
+endocrinology-module__sitagliptin-metformin,sitagliptin/metformin,Janumet,"Combination oral blood
+glucose lowering drug","Tabs: 50 mg/500 mg, 50 mg/850 mg, 50
+mg/1000 mg
+MR Tabs (IR sitagliptin, XR metformin): 50
+mg/500 mg, 50 mg/1000 mg, 100 mg/1000 mg",Combination oral blood glucose lowering drugs,ENDOCRINOLOGY MODULE
+endocrinology-module__cabergoline,cabergoline,Dostinex,ACTH Release Inhibitor,,ACTH Release Inhibitors,ENDOCRINOLOGY MODULE
+endocrinology-module__pasireotide,pasireotide,"Signifor
+Signifor LAR",ACTH Release Inhibitor,,ACTH Release Inhibitors,ENDOCRINOLOGY MODULE
+endocrinology-module__mitotane,mitotane,Lysodren,Adrenolytic,Tabs: 500 mg,Miscellaneous,ENDOCRINOLOGY MODULE
+endocrinology-module__acarbose,acarbose,Glucobay (d/c),Alpha-glucosidase inhibitor,"Tabs: 50 mg, 100 mg",Miscellaneous,ENDOCRINOLOGY MODULE
+endocrinology-module__fludrocortisone,fludrocortisone,Florinef,Corticosteroid,Tabs: 0.1 mg,Miscellaneous,ENDOCRINOLOGY MODULE
+neurology-module__carbamazepine,carbamazepine,Tegretol,Anticonvulsant,"Tabs: 200 mg
+Controlled Release (CR) Tabs: 200 mg, 400 mg
+Chew Tabs: 100 mg, 200 mg
+Suspension: 100 mg/5 mL",Anticonvulsants,NEUROLOGY MODULE
+neurology-module__divalproex-sodium,divalproex sodium,Epival,Anticonvulsant,"Enteric Coated (EC) Tabs: 125 mg, 250 mg, 500 mg",Anticonvulsants,NEUROLOGY MODULE
+neurology-module__gabapentin,gabapentin,Neurontin,Anticonvulsant,"Caps: 100 mg, 300 mg, 400 mg
+Tabs: 600 mg, 800 mg",Anticonvulsants,NEUROLOGY MODULE
+neurology-module__phenytoin-acid-form,phenytoin (acid form),Dilantin,Anticonvulsant,"Infatabs: 50 mg
+Suspension: 125 mg/5 mL",Anticonvulsants,NEUROLOGY MODULE
+neurology-module__phenytoin-sodium,phenytoin sodium,Dilantin,Anticonvulsant,"ER Caps: 30 mg, 100 mg",Anticonvulsants,NEUROLOGY MODULE
+neurology-module__topiramate,topiramate,Topamax,Anticonvulsant,"Tabs: 25 mg, 50 mg, 100 mg, 200 mg
+Sprinkle Caps: 15 mg, 25 mg",Anticonvulsants,NEUROLOGY MODULE
+neurology-module__valproic-acid,valproic acid,Depakene,Anticonvulsant,"Oral Solution: 250 mg/5 mL
+Caps: 250 mg
+EC Caps: 500 mg",Anticonvulsants,NEUROLOGY MODULE
+neurology-module__lamotrigine,lamotrigine,Lamictal,Anticonvulsant,"Tabs: 25 mg, 100 mg, 150 mg
+Dispersible/Chew Tabs: 2 mg, 5 mg",Anticonvulsants,NEUROLOGY MODULE
+neurology-module__levetiracetam,levetiracetam,Keppra,Anticonvulsant,"Tabs: 250 mg, 500 mg, 750 mg, 1000 mg
+Oral Solution: 100 mg/mL",Anticonvulsants,NEUROLOGY MODULE
+neurology-module__lacosamide,lacosamide,Vimpat,Anticonvulsant,"Tabs: 50 mg, 100 mg, 150 mg, 200 mg
+Oral Solution: 10 mg/mL",Anticonvulsants,NEUROLOGY MODULE
+neurology-module__clonazepam,clonazepam,Rivotril,Benzodiazepine,"Tabs: 0.25 mg, 0.5 mg, 1 mg, 2 mg",Benzodiazepines,NEUROLOGY MODULE
+neurology-module__temazepam,temazepam,Restoril,Benzodiazepine,"Caps: 15 mg, 30 mg",Benzodiazepines,NEUROLOGY MODULE
+neurology-module__triazolam,triazolam,,Benzodiazepine,Tab: 0.25 mg,Benzodiazepines,NEUROLOGY MODULE
+neurology-module__lorazepam,lorazepam,Ativan,Benzodiazepine,"Tabs: 0.5 mg, 1 mg, 2 mg
+SL Tabs: 0.5 mg, 1 mg, 2 mg
+Injectable: 4 mg/mL",Benzodiazepines,NEUROLOGY MODULE
+neurology-module__oxazepam,oxazepam,,Benzodiazepine,"Tabs: 10 mg, 15 mg, 30 mg",Benzodiazepines,NEUROLOGY MODULE
+neurology-module__amitriptyline,amitriptyline,Elavil (Dormant),TCA,"Tabs: 10 mg, 25 mg, 50 mg, 75 mg, 100 mg",Tricyclic Antidepressants (TCAs),NEUROLOGY MODULE
+neurology-module__doxepin,doxepin,"Silenor
+Sinequan",TCA,"Tabs: 3 mg, 6 mg
+Caps: 10 mg, 25 mg, 50 mg, 75 mg, 100 mg",Tricyclic Antidepressants (TCAs),NEUROLOGY MODULE
+neurology-module__nortriptyline,nortriptyline,Aventyl,TCA,"Caps: 10 mg, 25 mg",Tricyclic Antidepressants (TCAs),NEUROLOGY MODULE
+neurology-module__zopiclone,zopiclone,Imovane,Hypnotic,"Tabs: 3.75 mg, 5 mg, 7.5 mg",Non-benzodiazepine sedative hypnotics (Z-drugs),NEUROLOGY MODULE
+neurology-module__zolpidem,zolpidem,Sublinox,Hypnotic,"Orally disintegrating tablet (ODT): 5 mg, 10
+mg",Non-benzodiazepine sedative hypnotics (Z-drugs),NEUROLOGY MODULE
+neurology-module__trazodone,trazodone,,Antidepressant,"Tabs: 50 mg, 75 mg, 100 mg, 150 mg",Miscellaneous,NEUROLOGY MODULE
+neurology-module__mirtazapine,mirtazapine,Remeron,Antidepressant,"Tabs: 15 mg, 30 mg, 45 mg
+ODT: 15 mg, 30 mg, 45 mg",Miscellaneous,NEUROLOGY MODULE
+neurology-module__lemborexant,lemborexant,Dayvigo,"Dual orexin receptor
+antagonist (DORA)","Tabs: 5 mg, 10 mg",Miscellaneous,NEUROLOGY MODULE
+neurology-module__duloxetine,duloxetine,,Antidepressant,"Delayed-Release Caps: 30 mg, 60 mg",Miscellaneous,NEUROLOGY MODULE
+neurology-module__pregabalin,pregabalin,Lyrica,Analgesic,"Caps: 25 mg, 50 mg, 75 mg, 150 mg, 225 mg,
+300 mg",Miscellaneous,NEUROLOGY MODULE
+neurology-module__sumatriptan-hemisulfate,sumatriptan hemisulfate,Imitrex,"5-HT1 Receptor Agonist
+(triptan)","Nasal Spray: 5 mg/spray, 20 mg/spray",Migraine Therapy,NEUROLOGY MODULE
+neurology-module__sumatriptan-succinate,sumatriptan succinate,Imitrex,"5-HT1 Receptor Agonist
+(triptan)","Tabs: 25 mg, 50 mg, 100 mg
+Injectable: 6 mg/0.5 mL",Migraine Therapy,NEUROLOGY MODULE
+neurology-module__rizatriptan,rizatriptan,Maxalt,"5-HT1 Receptor Agonist
+(triptan)","Tabs: 5 mg, 10 mg
+ODT: 5 mg, 10 mg
+Rapidly disintegrating (RPD) Wafer: 5 mg, 10
+mg",Migraine Therapy,NEUROLOGY MODULE
+neurology-module__erenumab,erenumab,Aimovig,CGRP inhibitor,"Auto-Injector: 70 mg/mL, 140 mg/mL",Calcitonin gene-related peptide (CGRP) Inhibitors,NEUROLOGY MODULE
+neurology-module__rimegepant,rimegepant,Nurtec,CGRP inhibitor,ODT: 75 mg,Calcitonin gene-related peptide (CGRP) Inhibitors,NEUROLOGY MODULE
+neurology-module__ubrogepant,ubrogepant,Ubrelvy,CGRP inhibitor,"Tabs: 50 mg, 100 mg",Calcitonin gene-related peptide (CGRP) Inhibitors,NEUROLOGY MODULE
+neurology-module__levodopa-carbidopa,levodopa/carbidopa,Sinemet (d/c),Anti-Parkinson agent,"Tabs: 100 mg/10 mg, 100 mg/25 mg, 250
+mg/25 mg
+CR Tabs: 100 mg/25 mg, 200 mg/50 mg",Dopamine precursors,NEUROLOGY MODULE
+neurology-module__levodopa-benserazide,levodopa/benserazide,Prolopa,Anti-Parkinson agent,"Caps: 50 mg/12.5 mg, 100 mg/25 mg, 200
+mg/50 mg",Dopamine precursors,NEUROLOGY MODULE
+neurology-module__pramipexole,pramipexole,Mirapex,Dopamine agonist,"Tabs: 0.125 mg, 0.25 mg, 0.5 mg, 1 mg, 1.5
+mg",Dopamine agonists,NEUROLOGY MODULE
+neurology-module__ropinirole,ropinirole,ReQuip (d/c),Dopamine agonist,"Tabs: 0.25 mg, 1 mg, 2 mg, 5 mg",Dopamine agonists,NEUROLOGY MODULE
+neurology-module__donepezil-hydrochloride,donepezil hydrochloride,Aricept,Cholinesterase Inhibitor,"Tabs: 5 mg, 10 mg",Cholinesterase Inhibitors,NEUROLOGY MODULE
+neurology-module__galantamine,galantamine,Reminyl ER (d/c),Cholinesterase Inhibitor,"ER Caps: 8 mg, 16 mg, 24 mg",Cholinesterase Inhibitors,NEUROLOGY MODULE
+neurology-module__rivastigmine,rivastigmine,"Exelon
+Exelon Patch",Cholinesterase Inhibitor,"Caps: 1.5 mg, 3 mg, 4.5 mg, 6 mg
+Oral Solution: 2 mg/mL
+Patches: 4.6 mg/24 hr, 9.5 mg/24 hr, 13.3
+mg/24 hr",Cholinesterase Inhibitors,NEUROLOGY MODULE
+neurology-module__entacapone,entacapone,Comtan (Dormant),"Catechol-O-methyltransferase
+(COMT) Inhibitor",Tabs: 200 mg,Miscellaneous Anti-Parkinson Agents,NEUROLOGY MODULE
+neurology-module__rasagiline,rasagiline,Azilect,"Monoamine oxidase B (MAO-B)
+Inhibitor","Tabs: 0.5 mg, 1 mg",Miscellaneous Anti-Parkinson Agents,NEUROLOGY MODULE
+cardiovascular-module__sacubitril-valsartan,sacubitril/valsartan,Entresto,Neprilysin Inhibitor/ARB,"Tabs: 24 mg/26 mg, 49 mg/51 mg,
+97 mg/103 mg",Miscellaneous heart failure medications,CARDIOVASCULAR MODULE
+cardiovascular-module__ivabradine,ivabradine,Lancora,If current (funny channel) Inhibitor,"Tabs: 5 mg, 7.5 mg",Miscellaneous heart failure medications,CARDIOVASCULAR MODULE
+cardiovascular-module__dapagliflozin,dapagliflozin,Forxiga,SGLT2 Inhibitor,Tabs: 10 mg,Miscellaneous heart failure medications,CARDIOVASCULAR MODULE
+cardiovascular-module__empagliflozin,empagliflozin,Jardiance,SGLT2 Inhibitor,"Tabs: 10 mg, 25 mg",Miscellaneous heart failure medications,CARDIOVASCULAR MODULE
+cardiovascular-module__digoxin,digoxin,"Lanoxin (d/c)
+Toloxin (d/c)",Cardiac Glycoside,"Tabs: 0.0625 mg, 0.125 mg
+Oral Solution: 0.05 mg/mL",Miscellaneous heart failure medications,CARDIOVASCULAR MODULE
+neurology-module__memantine,memantine,Ebixa,"NMDA Receptor
+Antagonist","Tabs: 5 mg, 10 mg",N-methyl-D-aspartate (NMDA) Receptor Antagonists,NEUROLOGY MODULE
+neurology-module__amantadine,amantadine,Symmetrel (d/c),"Antiparkinsonian Agent
+/ Antiviral","Caps: 100 mg
+Syrup: 10 mg/mL",N-methyl-D-aspartate (NMDA) Receptor Antagonists,NEUROLOGY MODULE
