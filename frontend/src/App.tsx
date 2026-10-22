@@ -39,7 +39,11 @@ function App() {
 		setIndex((i) => (i - 1 + shuffledDrugs.length) % shuffledDrugs.length);
 		setRevealed(false);
 	};
-
+	const reset = () => {
+		setShuffledDrugs(shuffle(drugs));
+		setIndex(0);
+		setRevealed(false);
+	};
 	const reveal = () => setRevealed(true);
 	return (
 		<div>
@@ -52,6 +56,9 @@ function App() {
 			</button>
 			<button className="button" onClick={reveal}>
 				Reveal
+			</button>
+			<button className="button" onClick={reset}>
+				Shuffle
 			</button>
 		</div>
 	);
