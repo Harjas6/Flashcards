@@ -130,36 +130,47 @@ def standardize_therapeutic_class(df):
     Standardize names to acronyms for easier searching and filtering
     """
     df.loc[
-        df["Therapeutic Class"] == "Short-Acting Muscarinic\nAntagonist (SAMA)",
-        "Therapeutic Class",
+        df["therapeuticClass"] == "Short-Acting Muscarinic\nAntagonist (SAMA)",
+        "therapeuticClass",
     ] = "SAMA"
     df.loc[
-        df["Therapeutic Class"] == "Long-Acting Muscarinic\nAntagonist (LAMA)",
-        "Therapeutic Class",
+        df["therapeuticClass"] == "Long-Acting Muscarinic\nAntagonist (LAMA)",
+        "therapeuticClass",
     ] = "LAMA"
     df.loc[
-        df["Therapeutic Class"] == "Short-Acting Beta\nAgonist (SABA)",
-        "Therapeutic Class",
+        df["therapeuticClass"] == "Short-Acting Beta\nAgonist (SABA)",
+        "therapeuticClass",
     ] = "SABA"
     df.loc[
-        df["Therapeutic Class"] == "Long-Acting Beta Agonist\n(LABA)",
-        "Therapeutic Class",
+        df["therapeuticClass"] == "Long-Acting Beta Agonist\n(LABA)",
+        "therapeuticClass",
     ] = "LABA"
 
     df.loc[
-        df["Therapeutic Class"] == "Inhaled Corticosteroid\n(ICS)",
-        "Therapeutic Class",
+        df["therapeuticClass"] == "Inhaled Corticosteroid\n(ICS)",
+        "therapeuticClass",
     ] = "ICS"
 
     df.loc[
-        df["Therapeutic Class"] == "Non-dihydropyridine (DHP) CCB",
-        "Therapeutic Class",
+        df["therapeuticClass"] == "Non-dihydropyridine (DHP) CCB",
+        "therapeuticClass",
     ] = "Non-DHP CCB"
 
     df.loc[
-        df["Therapeutic Class"] == "Sodium-glucose cotransporter 2 (SGLT2) Inhibitor",
-        "Therapeutic Class",
+        df["therapeuticClass"] == "Sodium-glucose cotransporter 2 (SGLT2) Inhibitor",
+        "therapeuticClass",
     ] = "SGLT2 Inhibitor"
+
+    # some were parsed corretcly but had lowercase i
+    df.loc[
+        df["therapeuticClass"] == "SGLT2 inhibitor",
+        "therapeuticClass",
+    ] = "SGLT2 Inhibitor"
+
+    df.loc[
+        df["category"] == "SGLT2 inhibitors",
+        "category",
+    ] = "SGLT2 Inhibitors"
 
 
 def add_key(df):
@@ -173,7 +184,7 @@ def add_key(df):
     df.insert(
         0,
         "id",
-        df["Module Name"].map(slug) + "__" + df["Generic Name"].map(slug),
+        df["moduleName"].map(slug) + "__" + df["genericName"].map(slug),
     )
     assert df["id"].is_unique, df[df["id"].duplicated(keep=False)]
 

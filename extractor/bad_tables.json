@@ -8,7 +8,7 @@
             1
         ],
         "category": "Combination inhalers: Inhaled Corticosteroid + Muscarinic antagonist + Beta agonist",
-        "module": "RESPIRATORY MODULE",
+        "moduleName": "RESPIRATORY MODULE",
         "table": [
             [
                 "budesonide-glycopyrronium-"
@@ -33,7 +33,7 @@
             8
         ],
         "category": "Anticoagulants",
-        "module": "CARDIOVASCULAR MODULE",
+        "moduleName": "CARDIOVASCULAR MODULE",
         "table": [
             [
                 "Generic Name",
@@ -128,7 +128,7 @@
             5
         ],
         "category": "Cholinesterase Inhibitors",
-        "module": "NEUROLOGY MODULE",
+        "moduleName": "NEUROLOGY MODULE",
         "table": [
             [
                 "Generic",

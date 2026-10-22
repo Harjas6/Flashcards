@@ -4,13 +4,20 @@ import pandas as pd
 import pdfplumber
 
 TABLE_COL = [
-    "Generic Name",
-    "Brand Name",
-    "Therapeutic Class",
-    "Dosage Forms and Strengths",
+    "genericName",
+    "brandName",
+    "therapeuticClass",
+    "dosageFormsAndStrengths",
+]
+# header row text exactly as printed in the PDF (lowercase), used only for detection
+PDF_HEADER_LABELS = [
+    "generic name",
+    "brand name",
+    "therapeutic class",
+    "dosage forms and strengths",
 ]
 
-METADATA_COL = ["Category", "Module Name"]
+METADATA_COL = ["category", "moduleName"]
 
 FINAL_COL = TABLE_COL + METADATA_COL
 
@@ -104,7 +111,7 @@ def extract_tables(
     headers = extract_headers(page)
     index = 0
     current_header = prev_table_category
-    low_col = [word.strip().lower() for word in TABLE_COL]
+    low_col = PDF_HEADER_LABELS
 
     tables = page.extract_tables()
     bad_tables = []
@@ -126,8 +133,8 @@ def extract_tables(
             current_header = headers[index]
             index += 1
             df = pd.DataFrame(table[1:], columns=TABLE_COL)
-        df["Category"] = current_header
-        df["Module Name"] = module_name
+        df["category"] = current_header
+        df["moduleName"] = module_name
         successful_dfs.append(df)
 
     return successful_dfs, current_header, bad_tables
@@ -140,7 +147,7 @@ def log_bad_table(page, module_name, current_header, table_index, table):
         "expected_columns": len(TABLE_COL),
         "actual_row_lengths": [len(row) for row in table],
         "category": current_header,
-        "module": module_name,
+        "moduleName": module_name,
         "table": table,
     }
 
