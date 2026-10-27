@@ -90,7 +90,9 @@ function App() {
 			<button className="button" onClick={reset}>
 				Shuffle
 			</button>
-			<label htmlFor="module-select">Filter by Module:</label>
+			<label className="dropdown-label" htmlFor="module-select">
+				Filter by Module:
+			</label>
 			<select
 				className="button"
 				id="module-select"
@@ -108,7 +110,9 @@ function App() {
 			</select>
 			{selectedModule !== "all" && (
 				<>
-					<label htmlFor="category-select">Filter by Category:</label>
+					<label className="dropdown-label" htmlFor="category-select">
+						Filter by Category:
+					</label>
 					<select
 						className="button"
 						onChange={selectCategories}
