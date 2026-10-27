@@ -90,7 +90,13 @@ function App() {
 			<button className="button" onClick={reset}>
 				Shuffle
 			</button>
-			<select className="button" onChange={selectModules} defaultValue="all">
+			<label htmlFor="module-select">Filter by Module:</label>
+			<select
+				className="button"
+				id="module-select"
+				onChange={selectModules}
+				defaultValue="all"
+			>
 				<option key="all" value="all">
 					All
 				</option>
@@ -101,20 +107,23 @@ function App() {
 				))}
 			</select>
 			{selectedModule !== "all" && (
-				<select
-					className="button"
-					onChange={selectCategories}
-					defaultValue="all"
-				>
-					<option key="all" value="all">
-						All
-					</option>
-					{uniqueCategories.map((category) => (
-						<option key={category} value={category}>
-							{category}
+				<>
+					<label htmlFor="category-select">Filter by Category:</label>
+					<select
+						className="button"
+						onChange={selectCategories}
+						defaultValue="all"
+					>
+						<option key="all" value="all">
+							All
 						</option>
-					))}
-				</select>
+						{uniqueCategories.map((category) => (
+							<option key={category} value={category}>
+								{category}
+							</option>
+						))}
+					</select>
+				</>
 			)}
 		</div>
 	);
