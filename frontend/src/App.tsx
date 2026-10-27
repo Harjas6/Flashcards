@@ -14,7 +14,7 @@ export type Drug = {
 };
 
 const drugs = drugsJson as Drug[];
-const categories = [...new Set(drugs.map((drug) => drug.moduleName))];
+const uniqueDrugModules = [...new Set(drugs.map((drug) => drug.moduleName))];
 
 // Fisher-Yates shuffle algorithm
 function shuffle<T>(items: T[]): T[] {
@@ -74,7 +74,7 @@ function App() {
 				<option key="all" value="all">
 					All
 				</option>
-				{categories.map((category) => (
+				{uniqueDrugModules.map((category) => (
 					<option key={category} value={category}>
 						{category}
 					</option>
