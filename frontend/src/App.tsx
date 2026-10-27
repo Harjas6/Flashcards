@@ -14,6 +14,7 @@ export type Drug = {
 };
 
 const drugs = drugsJson as Drug[];
+const categories = [...new Set(drugs.map((drug) => drug.moduleName))];
 
 // Fisher-Yates shuffle algorithm
 function shuffle<T>(items: T[]): T[] {
@@ -45,6 +46,15 @@ function App() {
 		setRevealed(false);
 	};
 	const reveal = () => setRevealed(true);
+	const select = (event: React.ChangeEvent<HTMLSelectElement>) => {
+		const value = event.target.value;
+		const filteredDrugs = drugs.filter(
+			(drug) => value === "all" || drug.moduleName === value,
+		);
+		setShuffledDrugs(shuffle(filteredDrugs));
+		setIndex(0);
+		setRevealed(false);
+	};
 	return (
 		<div>
 			<Flashcard drug={shuffledDrugs[index]} revealed={revealed} />
@@ -60,6 +70,16 @@ function App() {
 			<button className="button" onClick={reset}>
 				Shuffle
 			</button>
+			<select className="button" onChange={select} defaultValue="all">
+				<option key="all" value="all">
+					All
+				</option>
+				{categories.map((category) => (
+					<option key={category} value={category}>
+						{category}
+					</option>
+				))}
+			</select>
 		</div>
 	);
 }
