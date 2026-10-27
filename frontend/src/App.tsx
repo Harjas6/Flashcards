@@ -27,6 +27,10 @@ function shuffle<T>(items: T[]): T[] {
 }
 
 function App() {
+	const [selectedModule, setSelectedModule] = useState("all");
+	const [uniqueCategories, setUniqueCategories] = useState<string[]>([
+		...new Set(drugs.map((drug) => drug.category)),
+	]);
 	const [index, setIndex] = useState(0);
 	const [shuffledDrugs, setShuffledDrugs] = useState<Drug[]>(() =>
 		shuffle(drugs),
@@ -46,10 +50,26 @@ function App() {
 		setRevealed(false);
 	};
 	const reveal = () => setRevealed(true);
-	const select = (event: React.ChangeEvent<HTMLSelectElement>) => {
+	const selectModules = (event: React.ChangeEvent<HTMLSelectElement>) => {
 		const value = event.target.value;
+		setSelectedModule(value);
 		const filteredDrugs = drugs.filter(
 			(drug) => value === "all" || drug.moduleName === value,
+		);
+		setUniqueCategories([
+			...new Set(filteredDrugs.map((drug) => drug.category)),
+		]);
+		setShuffledDrugs(shuffle(filteredDrugs));
+		setIndex(0);
+		setRevealed(false);
+	};
+
+	const selectCategories = (event: React.ChangeEvent<HTMLSelectElement>) => {
+		const value = event.target.value;
+		const filteredDrugs = drugs.filter(
+			(drug) =>
+				(value === "all" && drug.moduleName === selectedModule) ||
+				(drug.category === value && drug.moduleName === selectedModule),
 		);
 		setShuffledDrugs(shuffle(filteredDrugs));
 		setIndex(0);
@@ -70,7 +90,7 @@ function App() {
 			<button className="button" onClick={reset}>
 				Shuffle
 			</button>
-			<select className="button" onChange={select} defaultValue="all">
+			<select className="button" onChange={selectModules} defaultValue="all">
 				<option key="all" value="all">
 					All
 				</option>
@@ -80,6 +100,22 @@ function App() {
 					</option>
 				))}
 			</select>
+			{selectedModule !== "all" && (
+				<select
+					className="button"
+					onChange={selectCategories}
+					defaultValue="all"
+				>
+					<option key="all" value="all">
+						All
+					</option>
+					{uniqueCategories.map((category) => (
+						<option key={category} value={category}>
+							{category}
+						</option>
+					))}
+				</select>
+			)}
 		</div>
 	);
 }
