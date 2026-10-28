@@ -5,30 +5,39 @@
 	flex-direction: column;
 	align-items: center;
 	min-height: 70vh;
+	height: auto;
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 16px;
+	gap: 15px;
 }
 
 .controls {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-end;
-	gap: 10px;
+	gap: 7px;
+	max-width: 100%;
 }
 
 .flashcard {
-	background-color: rgba(var(--background-color), 0.1);
+	background-color: #344454;
 	display: flex;
+	min-width: 50%;
 	flex-direction: column;
 	align-items: center;
-	border-radius: 10%;
-	margin: 20px;
 	padding: 10px;
+
+	border-radius: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	box-shadow: 0 4px 10px rgba(121, 118, 118, 0.8);
 }
 .question {
-	color: rgb(34, 117, 166);
+	color: #d4dee8;
 }
 .answers {
-	color: rgb(40, 150, 80);
-	gap: 100;
+	color: #a8d5b5;
 }
 
 .hint {
@@ -36,14 +45,19 @@
 }
 
 .button {
-	color: rgb(200, 80, 50);
+	color: #e5eaf0;
+	background-color: #344454;
+	border: none;
+	border-radius: 7px;
 	width: 100px;
-	margin: 5px;
+	margin: 3px;
 }
 
 .dropdown-label {
-	color: rgb(20, 140, 150);
+	color: #e5eaf0;
 	display: flex;
 	flex-direction: column;
-	gap: 5;
+	align-items: center;
+	justify-content: center;
+	max-width: 100%;
 }
