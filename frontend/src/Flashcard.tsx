@@ -12,11 +12,13 @@ export function Flashcard({ drug, revealed }: FlashcardProps) {
 
 			{revealed ? (
 				<div className="answers">
-					<p>Brand Name: {drug.brandName}</p>
-					<p>Therapeutic Class: {drug.therapeuticClass}</p>
-					<p>Dosage Forms and Strengths: {drug.dosageFormsAndStrengths}</p>
-					<p>Category: {drug.category}</p>
-					<p>Module Name: {drug.moduleName}</p>
+					<ul>
+						<li>Brand Name: {drug.brandName}</li>
+						<li>Therapeutic Class: {drug.therapeuticClass}</li>
+						<li>Dosage Forms and Strengths: {drug.dosageFormsAndStrengths}</li>
+						<li>Category: {drug.category}</li>
+						<li>Module Name: {drug.moduleName}</li>
+					</ul>
 				</div>
 			) : (
 				<p className="hint">Click Reveal to see the answer</p>

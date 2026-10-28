@@ -76,7 +76,7 @@ function App() {
 		setRevealed(false);
 	};
 	return (
-		<div>
+		<div className="App">
 			<Flashcard drug={shuffledDrugs[index]} revealed={revealed} />
 			<button className="button" onClick={prev}>
 				Previous
@@ -117,6 +117,7 @@ function App() {
 						className="button"
 						onChange={selectCategories}
 						defaultValue="all"
+						id="category-select"
 					>
 						<option key="all" value="all">
 							All
