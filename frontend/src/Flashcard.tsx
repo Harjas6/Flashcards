@@ -8,7 +8,9 @@ type FlashcardProps = {
 export function Flashcard({ drug, revealed }: FlashcardProps) {
 	return (
 		<div className="flashcard">
-			<h2>Generic Name: {drug.genericName}</h2>
+			<div className="question">
+				<h2>Generic Name: {drug.genericName}</h2>
+			</div>
 
 			{revealed ? (
 				<div className="answers">

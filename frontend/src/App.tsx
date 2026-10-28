@@ -76,60 +76,62 @@ function App() {
 		setRevealed(false);
 	};
 	return (
-		<div className="App">
+		<div className="app">
 			<Flashcard drug={shuffledDrugs[index]} revealed={revealed} />
-			<button className="button" onClick={prev}>
-				Previous
-			</button>
-			<button className="button" onClick={next}>
-				Next
-			</button>
-			<button className="button" onClick={reveal}>
-				Reveal
-			</button>
-			<button className="button" onClick={reset}>
-				Shuffle
-			</button>
-			<label className="dropdown-label" htmlFor="module-select">
-				Filter by Module:
-			</label>
-			<select
-				className="button"
-				id="module-select"
-				onChange={selectModules}
-				defaultValue="all"
-			>
-				<option key="all" value="all">
-					All
-				</option>
-				{uniqueDrugModules.map((category) => (
-					<option key={category} value={category}>
-						{category}
-					</option>
-				))}
-			</select>
-			{selectedModule !== "all" && (
-				<>
-					<label className="dropdown-label" htmlFor="category-select">
-						Filter by Category:
-					</label>
+			<div className="controls">
+				<button className="button" onClick={prev}>
+					Previous
+				</button>
+				<button className="button" onClick={next}>
+					Next
+				</button>
+				<button className="button" onClick={reveal}>
+					Reveal
+				</button>
+				<button className="button" onClick={reset}>
+					Shuffle
+				</button>
+				<div className="dropdown-label">
+					<label htmlFor="module-select">Filter by Module:</label>
 					<select
 						className="button"
-						onChange={selectCategories}
+						id="module-select"
+						onChange={selectModules}
 						defaultValue="all"
-						id="category-select"
 					>
 						<option key="all" value="all">
 							All
 						</option>
-						{uniqueCategories.map((category) => (
+						{uniqueDrugModules.map((category) => (
 							<option key={category} value={category}>
 								{category}
 							</option>
 						))}
 					</select>
-				</>
-			)}
+				</div>
+				{selectedModule !== "all" && (
+					<div className="dropdown-label">
+						<label className="dropdown-label" htmlFor="category-select">
+							Filter by Category:
+						</label>
+						<select
+							className="button"
+							onChange={selectCategories}
+							defaultValue="all"
+							id="category-select"
+						>
+							<option key="all" value="all">
+								All
+							</option>
+							{uniqueCategories.map((category) => (
+								<option key={category} value={category}>
+									{category}
+								</option>
+							))}
+						</select>
+					</div>
+				)}
+			</div>
 		</div>
 	);
 }
