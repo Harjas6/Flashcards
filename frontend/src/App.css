@@ -16,6 +16,7 @@
 .controls {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	align-items: flex-end;
 	gap: 7px;
 	max-width: 100%;
