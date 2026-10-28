@@ -92,7 +92,7 @@ function App() {
 					Shuffle
 				</button>
 				<div className="dropdown-label">
-					<label htmlFor="module-select">Filter by Module:</label>
+					<label htmlFor="module-select">Module</label>
 					<select
 						className="button"
 						id="module-select"
@@ -112,7 +112,7 @@ function App() {
 				{selectedModule !== "all" && (
 					<div className="dropdown-label">
 						<label className="dropdown-label" htmlFor="category-select">
-							Filter by Category:
+							Category
 						</label>
 						<select
 							className="button"
