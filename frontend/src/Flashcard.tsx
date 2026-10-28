@@ -33,7 +33,7 @@ export function Flashcard({ drug, revealed }: FlashcardProps) {
 					</ul>
 				</div>
 			) : (
-				<p className="hint">Click Reveal to see the answer</p>
+				<p className="hint">Click reveal to see the answer</p>
 			)}
 		</div>
 	);
