@@ -6,6 +6,9 @@ An unofficial flashcard web app for studying the UBC Pharmacy Year 2 (PY2) Found
 
 **Live demo:** https://harjas6.github.io/Flashcards/
 
+<img width="640" alt="image" src="https://github.com/user-attachments/assets/84a9bfa0-c4a5-4322-af2b-e4288a354406" />
+
+
 ## How it works
 
 **Data pipeline (`extractor/`)**: A Python script pulls the drug tables out of the course PDF with `pdfplumber`, then cleans them into `drugs.json` for the app. Module and category headings are detected by font size, and grouped by vertical position. Tables that don't parse cleanly are logged to `bad_tables.json` where I then manual added them instead of being silently dropped.
