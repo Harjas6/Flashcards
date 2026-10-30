@@ -1,5 +1,6 @@
 .app {
 	color: rgb(50, 50, 50);
+	font-family: system-ui, sans-serif;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -26,6 +27,9 @@
 	background-color: #344454;
 	display: flex;
 	min-width: 50%;
+	width: 100%;
+	max-width: 720px;
+	min-height: 300px;
 	flex-direction: column;
 	align-items: center;
 	padding: 10px;
@@ -39,10 +43,11 @@
 }
 .answers {
 	color: #81a78b;
+	font-family: system-ui, sans-serif;
 }
 
 .hint {
-	color: rgb(150, 100, 180);
+	color: rgb(200, 165, 225);
 }
 
 .button {
@@ -52,10 +57,11 @@
 	border-radius: 7px;
 	width: 100px;
 	margin: 3px;
+	font-family: inherit;
 }
 
 .dropdown-label {
-	color: #868c92;
+	color: #a3acb5;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
