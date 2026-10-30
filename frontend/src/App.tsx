@@ -115,6 +115,7 @@ function App() {
 							Category
 						</label>
 						<select
+							key={selectedModule}
 							className="button"
 							onChange={selectCategories}
 							defaultValue="all"
