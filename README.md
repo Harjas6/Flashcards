@@ -6,7 +6,8 @@ An unofficial flashcard web app for studying the UBC Pharmacy Year 2 (PY2) Found
 
 **Live demo:** https://harjas6.github.io/Flashcards/
 
-<img width="640" alt="image" src="https://github.com/user-attachments/assets/84a9bfa0-c4a5-4322-af2b-e4288a354406" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/84a9bfa0-c4a5-4322-af2b-e4288a354406" /> <img width="500" alt="image" src="https://github.com/user-attachments/assets/83e1a17e-e539-4be6-8a11-ae1d3ecbe15c" />
+
 
 
 ## How it works
